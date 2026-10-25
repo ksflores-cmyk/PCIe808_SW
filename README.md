@@ -8,7 +8,7 @@ Proyecto final de Electronica 2 - Kevin Flores. Cadence OrCAD X PCB Professional
 ## Aviso
 Este diseño es una version academica personalizada, desarrollada a partir del material de
 referencia del fabricante proporcionado por el curso. El design kit original no se incluye en
-este repositorio. El contenido se publica con fines educativos y de portafolio; no es un diseno
+este repositorio. El contenido se publica con fines educativos y de portafolio; no es un diseño
 validado para fabricacion y se ofrece "tal cual", sin garantia. Cualquier uso o reproduccion
 es responsabilidad de quien lo realice.
 
