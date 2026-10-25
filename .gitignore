@@ -24,3 +24,8 @@ PI7C9X3G808GP-Design-kit*/
 # ===== Sistema operativo =====
 Thumbs.db
 desktop.ini
+# ===== Logs de Allegro en la libreria =====
+*.log,*
+export_libraries/
+# ===== Descargas originales de Ultra Librarian (se conservan solo los archivos ya validados en symbols/ y library/) =====
+library/ultralibrarian/
