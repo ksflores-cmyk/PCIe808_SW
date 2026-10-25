@@ -34,3 +34,8 @@ library/ultralibrarian/
 *.OLBlck
 *.opjlck
 /*.DRC
+# ===== Respaldos de librerias de Capture =====
+*.OBK
+*.obk
+# ===== Archivos generados por PSpice =====
+*-PSpiceFiles/
