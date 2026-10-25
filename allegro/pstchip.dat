@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 25.1.0 d001Oct-25-2026 at 09:46:23}
+{ Using PSTWRITER 25.1.0 d001Oct-25-2026 at 14:43:12}
 primitive 'BEAD_L1812_HI1812V101R-10';
   pin
     '2':
@@ -431,7 +431,7 @@ primitive 'CAP NP_C0402_100PF/50V C0G';
     VALUE='100pF/50V C0G';
   end_body;
 end_primitive;
-primitive 'C_MLCC_0_C0201_0.22UF';
+primitive 'C_MLCC_0_C0402_0.22UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -442,7 +442,7 @@ primitive 'C_MLCC_0_C0201_0.22UF';
   end_pin;
   body
     PART_NAME='C_MLCC_0';
-    JEDEC_TYPE='C0201';
+    JEDEC_TYPE='C0402';
     VALUE='0.22uF';
   end_body;
 end_primitive;
@@ -644,7 +644,7 @@ primitive 'INDUCTOR_IND_XAL7030_1.5UH';
     VALUE='1.5uH';
   end_body;
 end_primitive;
-primitive 'DSK_PWR_CONN_1_PWR-4P-90_DSK_PWR_CONN';
+primitive 'DSK_PWR_CONN_0_PWR-4P-90_DSK_PWR_CONN';
   pin
     '+12V':
       PIN_NUMBER='(1)';
@@ -660,7 +660,7 @@ primitive 'DSK_PWR_CONN_1_PWR-4P-90_DSK_PWR_CONN';
       INPUT_LOAD='(*)';
   end_pin;
   body
-    PART_NAME='DSK_PWR_CONN_1';
+    PART_NAME='DSK_PWR_CONN_0';
     JEDEC_TYPE='PWR-4P-90';
     VALUE='DSK_PWR_CONN';
   end_body;
