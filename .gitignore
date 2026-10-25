@@ -39,3 +39,7 @@ library/ultralibrarian/
 *.obk
 # ===== Archivos generados por PSpice =====
 *-PSpiceFiles/
+# ===== Generados por el netlist / import =====
+devices.dml
+pxlBA.txt
+last_import_time.txt
