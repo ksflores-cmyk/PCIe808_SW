@@ -1,0 +1,17 @@
+# Binarios de Cadence: sin conversion de fin de linea, sin diff/merge
+*.dsn binary
+*.DSN binary
+*.olb binary
+*.OLB binary
+*.brd binary
+*.dra binary
+*.psm binary
+*.pad binary
+*.bsm binary
+*.fsm binary
+*.ssm binary
+*.osm binary
+*.pdf binary
+# Texto de Cadence (se versiona con diff legible)
+*.opj text eol=crlf
+*.dat text eol=crlf

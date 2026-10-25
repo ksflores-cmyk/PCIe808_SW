@@ -1,0 +1,26 @@
+# ===== OrCAD Capture =====
+*.DBK
+*.dbk
+*.lck
+~$*
+*.tmp
+# ===== Allegro / OrCAD X PCB =====
+*.jrl
+*.jrl,*
+*.log
+*.lst
+*.SAV
+*.sav
+*.dmp
+*autosave*
+master.tag
+signoise.run/
+# ===== Scripts locales de configuracion =====
+_setup/
+# ===== Material de referencia bajo NDA: NUNCA al repo =====
+PI7C9X3G808GP-Design-kit*/
+*.rar
+*.ibs
+# ===== Sistema operativo =====
+Thumbs.db
+desktop.ini
