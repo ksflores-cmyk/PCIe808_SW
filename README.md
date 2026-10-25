@@ -173,8 +173,9 @@ PCIe808_SW/
 - [x] Integración de la etapa de potencia en el esquemático
 - [x] Verificación DRC del esquemático completo (0 errores)
 - [x] Netlist del esquemático importado a la PCB
-- [ ] Librería de *footprints* completa
-- [ ] *Placement* y ruteo de alta velocidad y potencia
+- [x] Librería de *footprints* completa
+- [x] *Placement* de componentes
+- [ ] Ruteo de alta velocidad y potencia
 - [ ] Ruteo del sistema de control
 - [ ] Archivos de fabricación (Gerbers, taladros, BOM)
 
