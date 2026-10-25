@@ -6,7 +6,7 @@ Proyecto final de Electronica 2 - Kevin Flores. Cadence OrCAD X PCB Professional
 - 3 convertidores Buck discretos propios: 3.3V_EXT, 0.95V_VDDC, 0.95V_VP.
 
 ## Aviso
-Este diseno es una version academica personalizada, desarrollada a partir del material de
+Este diseño es una version academica personalizada, desarrollada a partir del material de
 referencia del fabricante proporcionado por el curso. El design kit original no se incluye en
 este repositorio. El contenido se publica con fines educativos y de portafolio; no es un diseno
 validado para fabricacion y se ofrece "tal cual", sin garantia. Cualquier uso o reproduccion
