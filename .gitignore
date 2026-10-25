@@ -29,3 +29,7 @@ desktop.ini
 export_libraries/
 # ===== Descargas originales de Ultra Librarian (se conservan solo los archivos ya validados en symbols/ y library/) =====
 library/ultralibrarian/
+# ===== Locks de Capture =====
+*.DSNlck
+*.OLBlck
+*.opjlck
