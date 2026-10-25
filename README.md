@@ -154,7 +154,7 @@ PCIe808_SW/
 ├── docs/
 │   ├── webench/             Diseño de los convertidores buck
 │   └── img/                 Imágenes del README
-└── outputs/                 Entregables: PDF, BOM, Gerbers, reportes DRC
+└── outputs/                 Entregables: PDF, BOM, Gerbers y reportes (DRC, import)
 ```
 
 ## Cómo abrir el proyecto
@@ -171,7 +171,9 @@ PCIe808_SW/
 - [x] Esquemático base del switch, los puertos y el reloj
 - [x] Diseño de los tres convertidores *buck* (WEBENCH, símbolos y *footprints*)
 - [x] Integración de la etapa de potencia en el esquemático
-- [ ] Verificación DRC del esquemático completo
+- [x] Verificación DRC del esquemático completo (0 errores)
+- [x] Netlist del esquemático importado a la PCB
+- [ ] Librería de *footprints* completa
 - [ ] *Placement* y ruteo de alta velocidad y potencia
 - [ ] Ruteo del sistema de control
 - [ ] Archivos de fabricación (Gerbers, taladros, BOM)
