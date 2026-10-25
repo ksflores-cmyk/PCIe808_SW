@@ -15,3 +15,9 @@ Cin GRM32ER61C226ME20L 22uF 16V 1210 ; Cinx GRM155R61A274KE15D 270nF 0402
 Cout MSASJ21GBB5476MTNA01 47uF 6.3V 0805
 Css GRM033R60J333KE01D 33nF 0201 (cambiar a 0402) ; Cvcc GRM21BR71A225KA01L 2.2uF 0805 ; Cboot 08053C104KAT2A 100nF 0805
 Rtrip 5.49k 0402 ; Rpg 100k 0402 ; RenT 53.6k 0603 ; RenB 100k 0402 ; Rfbt 665 (0.1 %) ; Rfbb 10k (0.1 %)
+
+## Implementacion en esquematico (pag. 03_PWR1)
+U56 TPS54J060RPGR (fp RPG0014A-MFG) | L3 560nH (IND_XAL5020)
+Cout C624 | Cin C625 | Cinx C626 | Cboot C627 | Cvcc C628 | Css C629 (0402) | Rtrip R537 | Rfbt R538 | Rfbb R539
+CAMBIO vs BOM WEBENCH: sin RenT/RenB/Rpg propios. EN <- PG_3V3 (open-drain de Buck 1 con pull-up R536 10k a 3.3V_EXT),
+PGOOD -> U2_PGOOD (pull-up existente R27 5.1k + LED Q1/DS6). MODE a GND = FCCM 1.1 MHz.

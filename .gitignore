@@ -33,3 +33,4 @@ library/ultralibrarian/
 *.DSNlck
 *.OLBlck
 *.opjlck
+/*.DRC

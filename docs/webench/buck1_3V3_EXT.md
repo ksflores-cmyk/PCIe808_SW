@@ -13,3 +13,9 @@ Cinx1,Cinx3 C1005X5R1E105K050BC 1uF 25V 0402 ; Cinx2,Cinx4 06033C104KAT2A 100nF 
 Cboot 08053C104KAT2A 100nF 0805 ; Cvcc GRM21BR71A225KA01L 2.2uF 10V 0805 ; Css C0603C334K8RACTU 330nF 0603
 RenT 576k 0603 ; RenB 100k 0402 (UVLO 9 V) ; Rilim 5.76k 0402 ; Rmsel 4.99k 0402
 Rfbt 26.7k 0402 ; Rfbb 10k 0402 ; Rpg 10k (0201 -> 0402)
+
+## Implementacion en esquematico (pag. 03_PWR1)
+U55 TPS54KB20RZRR (fp RZR0016A-MFG) | L2 680nH (IND_XAL8080)
+Cout C610-C612 | Cin C613-C616 | Cinx C617,C618 (0402) C619,C620 (0603) | Cboot C621 | Cvcc C622 | Css C623
+RenT R530 | RenB R531 | Rilim R532 | Rmsel R533 | Rfbt R534 | Rfbb R535 | Rpg R536 -> red PG_3V3
+GOSNS a GND (sensado local); remote sense no usado. Pines de potencia del simbolo UL cambiados a Passive.
