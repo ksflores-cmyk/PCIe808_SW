@@ -34,16 +34,17 @@
 3. [Especificaciones principales](#especificaciones-principales)
 4. [Objetivos](#objetivos)
 5. [Arquitectura del sistema](#arquitectura-del-sistema)
-6. [Etapa de potencia](#etapa-de-potencia)
-7. [Layout de la PCB](#layout-de-la-pcb)
-8. [Componentes principales](#componentes-principales)
-9. [Herramientas de diseño](#herramientas-de-diseño)
-10. [Estructura del repositorio](#estructura-del-repositorio)
-11. [Cómo abrir el proyecto](#cómo-abrir-el-proyecto)
-12. [Estado del proyecto](#estado-del-proyecto)
-13. [Entregables de fabricación](#entregables-de-fabricación)
-14. [Aviso](#aviso)
-15. [Autor](#autor)
+6. [Esquemático](#esquemático)
+7. [Etapa de potencia](#etapa-de-potencia)
+8. [Layout de la PCB](#layout-de-la-pcb)
+9. [Componentes principales](#componentes-principales)
+10. [Herramientas de diseño](#herramientas-de-diseño)
+11. [Estructura del repositorio](#estructura-del-repositorio)
+12. [Cómo abrir el proyecto](#cómo-abrir-el-proyecto)
+13. [Estado del proyecto](#estado-del-proyecto)
+14. [Entregables de fabricación](#entregables-de-fabricación)
+15. [Aviso](#aviso)
+16. [Autor](#autor)
 
 ---
 
@@ -103,6 +104,38 @@ flowchart LR
     end
     SW <--> S4 & S5 & S6 & S7
 ```
+
+## Esquemático
+
+El esquemático tiene **15 hojas tamaño C**, cada una con cajetín (título, número de hoja, revisión y autor). El PDF completo, con marcadores por hoja, referencia y red, está en [`outputs/PI7_KEVINFLORES_esquematico.pdf`](outputs/PI7_KEVINFLORES_esquematico.pdf).
+
+| Hoja | Contenido | Hoja | Contenido |
+|---|---|---|---|
+| 01 | Portada | 09 | U6A: alimentación y desacople del switch |
+| 02 | Índice de hojas | 10 | Upstream PCIe x4 (puerto 0) |
+| 03 | Diagrama de bloques y árbol de potencia | 11 | U6C: pares diferenciales PCIe |
+| 04 | Entrada de potencia 12 V / 5 V | 12 | Slots downstream 4 a 7 |
+| 05 | Buck 1: 12 V → 3.3 V | 13 | U6D: reloj de referencia |
+| 06 | Buck 2: 5 V → 0.95 V VDDC | 14 | U6B: configuración, *straps*, SMBus y JTAG |
+| 07 | Buck 3: 5 V → 0.95 V VP | 15 | U6E: GPIO y header J11 |
+| 08 | LDO 0.95 V C_VDDC y 1.8 V | | |
+
+![Diagrama de bloques y árbol de potencia](docs/img/esq_bloques.png)
+
+Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones (entrada, *bootstrap*, inductor, divisor de realimentación y arranque suave), no solo con etiquetas. Las señales que pasan de una hoja a otra (PG_3V3 y U2_PGOOD) usan conectores *off-page*.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="docs/img/esq_buck1_3v3.png" width="100%"><br><sub>Hoja 05: Buck 1, 12 V → 3.3 V (TPS54KB20).</sub></td>
+    <td align="center" width="50%"><img src="docs/img/esq_buck2_0v95_vddc.png" width="100%"><br><sub>Hoja 06: Buck 2, 5 V → 0.95 V VDDC (TPS54J060).</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="docs/img/esq_buck3_0v95_vp.png" width="100%"><br><sub>Hoja 07: Buck 3, 5 V → 0.95 V VP (TPS62933F).</sub></td>
+    <td align="center" width="50%"><img src="docs/img/esq_entrada_potencia.png" width="100%"><br><sub>Hoja 04: entrada de 12 V / 5 V, distribución a los slots e indicadores.</sub></td>
+  </tr>
+</table>
+
+**Configuración del switch por *straps*** (hoja 14): PORTCFG[2:0] = 100b (P0 x4 + P4–P7 x1), I2C_ADDR[2:0] = 000, *Hot-Plug*, L1.1 y modo *debug* deshabilitados, y RESREF de 200 Ω 1 % a GND.
 
 ## Etapa de potencia
 
@@ -239,6 +272,8 @@ PCIe808_SW/
 - [x] Distribución de 12 V, 3.3 V, 5 V, 1.8 V, 0.95 V y 3.3VAUX
 - [x] Secuencia de encendido y conexión a GND de todos los pads SMD
 - [x] DRC de Allegro en 0 errores
+- [x] *Straps* de configuración obligatorios, RESREF y vías de costura GND junto a los cambios de capa de los pares PCIe
+- [x] Esquemático reorganizado: 15 hojas con cajetín, índice, diagrama de bloques y un convertidor por hoja
 
 **Entrega 2: control y fabricación**
 
@@ -255,7 +290,7 @@ Se publican en [`outputs/`](outputs/) al cerrar la Entrega 2:
 |---|---|---|
 | Gerbers (6 capas, máscaras, serigrafía y contorno) | RS-274X | Pendiente |
 | Taladros | Excellon / NC Drill | Pendiente |
-| Esquemático completo | PDF | Pendiente |
+| Esquemático completo | PDF | Preliminar ([ver](outputs/PI7_KEVINFLORES_esquematico.pdf)) |
 | Lista de materiales (BOM) | CSV / XLSX | Pendiente |
 | Modelo 3D de la placa | STEP | Pendiente |
 | Vistas 3D (superior, inferior e isométrica) | PNG | Pendiente |

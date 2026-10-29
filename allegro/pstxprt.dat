@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 25.1.0 d001Oct-28-2026 at 23:40:19 }
+{ Using PSTWRITER 25.1.0 d001Oct-29-2026 at 17:13:22 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PI7_KEVINFLORES';
@@ -13,7 +13,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7729@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7729@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7729@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7729@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,350)',
  SCH_ORIENT='(0)',
@@ -27,7 +27,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8309@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8309@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8309@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8309@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,510)',
  SCH_ORIENT='(0)',
@@ -41,7 +41,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8993@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8993@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8993@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8993@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,740)',
  SCH_ORIENT='(0)',
@@ -55,7 +55,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9477@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9477@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9477@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9477@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,880)',
  SCH_ORIENT='(0)',
@@ -69,7 +69,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8617@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8617@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8617@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8617@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,600)',
  SCH_ORIENT='(0)',
@@ -83,7 +83,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9749@L.BEAD.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9749@l.\bead.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9749@l.\bead.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9749@l.\bead.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,990)',
  SCH_ORIENT='(0)',
@@ -95,14 +95,14 @@ PART_NAME
  C10 'C_MLCC_C0402_DISCRETE_0.1UF':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31158@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31158@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31158@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196719@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196719@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196719@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(710,190)',
+ XY='(1250,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(710,190,730,200)',
+ SCH_BBOX='(1250,480,1270,490)',
  SECTION='';
 
 PART_NAME
@@ -111,7 +111,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52828@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52828@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52828@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52828@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1770,1150)',
  SCH_ORIENT='(90)',
@@ -125,7 +125,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117046@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117046@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117046@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117046@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(640,320)',
  SCH_ORIENT='(90)',
@@ -139,7 +139,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117504@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117504@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117504@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117504@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(640,390)',
  SCH_ORIENT='(90)',
@@ -153,7 +153,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8145@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8145@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8145@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8145@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1100,470)',
  SCH_ORIENT='(90)',
@@ -165,28 +165,28 @@ PART_NAME
  C20 'C_MLCC_C1206_DISCRETE_22UF25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31424@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31424@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31424@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196117@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196117@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196117@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(230,340)',
+ XY='(1010,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(230,340,250,350)',
+ SCH_BBOX='(1010,480,1030,490)',
  SECTION='';
 
 PART_NAME
  C21 'C_MLCC_C0402_DISCRETE_0.1UF':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31440@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31440@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31440@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196317@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196317@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196317@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(290,340)',
+ XY='(1090,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(290,340,310,350)',
+ SCH_BBOX='(1090,480,1110,490)',
  SECTION='';
 
 PART_NAME
@@ -195,7 +195,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7765@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7765@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7765@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7765@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(920,360)',
  SCH_ORIENT='(90)',
@@ -209,7 +209,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7813@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7813@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7813@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7813@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1100,360)',
  SCH_ORIENT='(90)',
@@ -223,7 +223,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7829@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7829@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7829@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7829@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,360)',
  SCH_ORIENT='(90)',
@@ -237,7 +237,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7845@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7845@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7845@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7845@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1350,360)',
  SCH_ORIENT='(90)',
@@ -251,7 +251,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7877@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7877@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7877@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7877@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1470,360)',
  SCH_ORIENT='(90)',
@@ -265,7 +265,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8097@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8097@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8097@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8097@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(920,470)',
  SCH_ORIENT='(90)',
@@ -279,7 +279,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8113@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8113@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8113@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8113@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(980,470)',
  SCH_ORIENT='(90)',
@@ -293,7 +293,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8129@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8129@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8129@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8129@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1040,470)',
  SCH_ORIENT='(90)',
@@ -307,7 +307,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8193@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8193@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8193@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8193@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1410,470)',
  SCH_ORIENT='(90)',
@@ -321,7 +321,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8209@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8209@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8209@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8209@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1470,470)',
  SCH_ORIENT='(90)',
@@ -335,7 +335,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7781@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7781@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7781@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7781@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(980,360)',
  SCH_ORIENT='(90)',
@@ -349,7 +349,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7797@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7797@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7797@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7797@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1040,360)',
  SCH_ORIENT='(90)',
@@ -363,7 +363,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7861@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7861@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7861@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7861@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1410,360)',
  SCH_ORIENT='(90)',
@@ -377,7 +377,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8161@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8161@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8161@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8161@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,470)',
  SCH_ORIENT='(90)',
@@ -391,7 +391,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8177@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8177@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8177@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8177@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1350,470)',
  SCH_ORIENT='(90)',
@@ -405,7 +405,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8473@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8473@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8473@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8473@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(920,590)',
  SCH_ORIENT='(90)',
@@ -419,7 +419,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8489@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8489@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8489@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8489@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(980,590)',
  SCH_ORIENT='(90)',
@@ -433,7 +433,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8505@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8505@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8505@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8505@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1040,590)',
  SCH_ORIENT='(90)',
@@ -447,7 +447,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8521@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8521@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8521@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8521@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,590)',
  SCH_ORIENT='(90)',
@@ -461,7 +461,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8537@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8537@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8537@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8537@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1360,590)',
  SCH_ORIENT='(90)',
@@ -475,7 +475,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8553@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8553@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8553@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8553@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1450,590)',
  SCH_ORIENT='(90)',
@@ -489,7 +489,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8569@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8569@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8569@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8569@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1510,590)',
  SCH_ORIENT='(90)',
@@ -503,7 +503,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8585@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8585@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8585@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8585@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1570,590)',
  SCH_ORIENT='(90)',
@@ -517,7 +517,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8601@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8601@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8601@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8601@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1630,590)',
  SCH_ORIENT='(90)',
@@ -531,7 +531,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8885@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8885@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8885@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8885@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,720)',
  SCH_ORIENT='(90)',
@@ -545,7 +545,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8901@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8901@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8901@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8901@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1360,720)',
  SCH_ORIENT='(90)',
@@ -559,7 +559,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8917@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8917@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8917@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8917@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1450,720)',
  SCH_ORIENT='(90)',
@@ -573,7 +573,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8933@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8933@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8933@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8933@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1510,720)',
  SCH_ORIENT='(90)',
@@ -587,7 +587,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8949@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8949@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8949@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8949@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1570,720)',
  SCH_ORIENT='(90)',
@@ -601,7 +601,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS8965@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins8965@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins8965@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins8965@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1630,720)',
  SCH_ORIENT='(90)',
@@ -615,7 +615,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9245@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9245@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9245@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9245@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(920,850)',
  SCH_ORIENT='(270)',
@@ -629,7 +629,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9261@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9261@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9261@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9261@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(980,850)',
  SCH_ORIENT='(90)',
@@ -643,7 +643,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9277@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9277@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9277@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9277@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1040,850)',
  SCH_ORIENT='(90)',
@@ -657,7 +657,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9293@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9293@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9293@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9293@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1100,850)',
  SCH_ORIENT='(90)',
@@ -671,7 +671,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9309@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9309@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9309@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9309@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1160,850)',
  SCH_ORIENT='(90)',
@@ -685,7 +685,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9325@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9325@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9325@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9325@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,850)',
  SCH_ORIENT='(270)',
@@ -699,7 +699,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9341@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9341@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9341@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9341@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1350,850)',
  SCH_ORIENT='(90)',
@@ -713,7 +713,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9357@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9357@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9357@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9357@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1410,850)',
  SCH_ORIENT='(90)',
@@ -727,7 +727,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9373@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9373@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9373@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9373@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1470,850)',
  SCH_ORIENT='(90)',
@@ -741,7 +741,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9389@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9389@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9389@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9389@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1530,850)',
  SCH_ORIENT='(90)',
@@ -755,7 +755,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9665@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9665@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9665@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9665@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(920,980)',
  SCH_ORIENT='(90)',
@@ -769,7 +769,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9681@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9681@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9681@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9681@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(980,980)',
  SCH_ORIENT='(90)',
@@ -783,7 +783,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9697@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9697@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9697@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9697@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1040,980)',
  SCH_ORIENT='(90)',
@@ -797,7 +797,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9801@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9801@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9801@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9801@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,1000)',
  SCH_ORIENT='(270)',
@@ -811,7 +811,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9817@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9817@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9817@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9817@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1350,1000)',
  SCH_ORIENT='(90)',
@@ -825,7 +825,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9833@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9833@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9833@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9833@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1410,1000)',
  SCH_ORIENT='(90)',
@@ -839,7 +839,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9849@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9849@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9849@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9849@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1470,1000)',
  SCH_ORIENT='(90)',
@@ -853,7 +853,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS9865@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins9865@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins9865@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins9865@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1530,1000)',
  SCH_ORIENT='(90)',
@@ -865,56 +865,56 @@ PART_NAME
  C346 'C_MLCC_C1206_DISCRETE_22UF25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31046@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31046@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31046@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS195301@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins195301@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins195301@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(230,200)',
+ XY='(690,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(230,200,250,210)',
+ SCH_BBOX='(690,480,710,490)',
  SECTION='';
 
 PART_NAME
  C347 'C_MLCC_C0402_DISCRETE_0.1UF':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31062@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31062@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31062@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS195509@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins195509@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins195509@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(320,200)',
+ XY='(770,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(320,200,340,210)',
+ SCH_BBOX='(770,480,790,490)',
  SECTION='';
 
 PART_NAME
  C348 'C_MLCC_C1206_DISCRETE_22UF25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31078@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31078@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31078@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS194623@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins194623@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins194623@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(30,330)',
+ XY='(350,240)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(30,330,50,340)',
+ SCH_BBOX='(350,240,370,250)',
  SECTION='';
 
 PART_NAME
  C349 'C_MLCC_C0402_DISCRETE_0.1UF':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31094@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31094@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31094@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS194767@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins194767@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins194767@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(120,330)',
+ XY='(410,240)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(120,330,140,340)',
+ SCH_BBOX='(410,240,430,250)',
  SECTION='';
 
 PART_NAME
@@ -923,7 +923,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3638@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3638@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3638@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3638@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(430,850)',
  SCH_ORIENT='(90)',
@@ -937,7 +937,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3654@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3654@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3654@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3654@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(510,850)',
  SCH_ORIENT='(90)',
@@ -951,7 +951,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3670@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3670@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3670@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3670@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(570,850)',
  SCH_ORIENT='(90)',
@@ -965,7 +965,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS761@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins761@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins761@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins761@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(670,360)',
  SCH_ORIENT='(270)',
@@ -979,7 +979,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS777@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins777@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins777@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins777@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(710,360)',
  SCH_ORIENT='(270)',
@@ -993,7 +993,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS837@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins837@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins837@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins837@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1160,360)',
  SCH_ORIENT='(90)',
@@ -1007,7 +1007,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS821@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins821@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins821@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins821@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1120,360)',
  SCH_ORIENT='(90)',
@@ -1021,7 +1021,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS805@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins805@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins805@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins805@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1070,360)',
  SCH_ORIENT='(90)',
@@ -1035,7 +1035,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1111@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1111@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1111@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1111@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(670,920)',
  SCH_ORIENT='(270)',
@@ -1049,7 +1049,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1127@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1127@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1127@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1127@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(710,920)',
  SCH_ORIENT='(270)',
@@ -1063,7 +1063,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1155@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1155@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1155@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1155@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1070,920)',
  SCH_ORIENT='(90)',
@@ -1077,7 +1077,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1171@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1171@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1171@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1171@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1110,920)',
  SCH_ORIENT='(90)',
@@ -1091,7 +1091,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1187@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1187@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1187@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1187@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1150,920)',
  SCH_ORIENT='(90)',
@@ -1103,364 +1103,364 @@ PART_NAME
  C610 'CAP NP_C1210_47UF/16V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS137811@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins137811@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins137811@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS185044@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins185044@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins185044@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(130,460)',
+ XY='(1490,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(130,460,150,470)',
+ SCH_BBOX='(1490,720,1510,730)',
  SECTION='';
 
 PART_NAME
  C611 'CAP NP_C1210_47UF/16V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS137979@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins137979@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins137979@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS185226@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins185226@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins185226@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(210,460)',
+ XY='(1580,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(210,460,230,470)',
+ SCH_BBOX='(1580,720,1600,730)',
  SECTION='';
 
 PART_NAME
  C612 'CAP NP_C1210_47UF/16V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS138147@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins138147@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins138147@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS185410@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins185410@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins185410@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(290,460)',
+ XY='(1670,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(290,460,310,470)',
+ SCH_BBOX='(1670,720,1690,730)',
  SECTION='';
 
 PART_NAME
  C613 'CAP NP_C1206_4.7UF/50V X7R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS138317@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins138317@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins138317@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS182474@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins182474@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins182474@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(370,460)',
+ XY='(120,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(370,460,390,470)',
+ SCH_BBOX='(120,370,140,380)',
  SECTION='';
 
 PART_NAME
  C614 'CAP NP_C1206_4.7UF/50V X7R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS138501@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins138501@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins138501@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS182679@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins182679@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins182679@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(450,460)',
+ XY='(210,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(450,460,470,470)',
+ SCH_BBOX='(210,370,230,380)',
  SECTION='';
 
 PART_NAME
  C615 'CAP NP_C1206_4.7UF/50V X7R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS138691@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins138691@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins138691@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS182882@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins182882@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins182882@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(530,460)',
+ XY='(300,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(530,460,550,470)',
+ SCH_BBOX='(300,370,320,380)',
  SECTION='';
 
 PART_NAME
  C616 'CAP NP_C1206_4.7UF/50V X7R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS138883@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins138883@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins138883@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183081@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183081@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183081@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(610,460)',
+ XY='(390,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(610,460,630,470)',
+ SCH_BBOX='(390,370,410,380)',
  SECTION='';
 
 PART_NAME
  C617 'CAP NP_C0402_1UF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139077@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139077@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139077@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183284@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183284@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183284@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(690,460)',
+ XY='(480,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(690,460,710,470)',
+ SCH_BBOX='(480,370,500,380)',
  SECTION='';
 
 PART_NAME
  C618 'CAP NP_C0402_1UF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139269@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139269@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139269@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183485@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183485@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183485@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(770,460)',
+ XY='(570,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(770,460,790,470)',
+ SCH_BBOX='(570,370,590,380)',
  SECTION='';
 
 PART_NAME
  C619 'CAP NP_C0603_100NF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139463@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139463@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139463@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183684@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183684@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183684@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(850,460)',
+ XY='(660,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(850,460,870,470)',
+ SCH_BBOX='(660,370,680,380)',
  SECTION='';
 
 PART_NAME
  C620 'CAP NP_C0603_100NF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139661@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139661@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139661@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS181977@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins181977@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins181977@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(50,770)',
+ XY='(750,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(50,770,70,780)',
+ SCH_BBOX='(750,370,770,380)',
  SECTION='';
 
 PART_NAME
  C621 'CAP NP_C0805_100NF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139859@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139859@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139859@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184558@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184558@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184558@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(130,770)',
+ XY='(1190,530)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(130,770,150,780)',
+ SCH_BBOX='(1190,530,1210,540)',
  SECTION='';
 
 PART_NAME
  C622 'CAP NP_C0805_2.2UF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS139908@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins139908@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins139908@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184046@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184046@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184046@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(210,770)',
+ XY='(690,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(210,770,230,780)',
+ SCH_BBOX='(690,730,710,740)',
  SECTION='';
 
 PART_NAME
  C623 'CAP NP_C0603_330NF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140036@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140036@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140036@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184175@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184175@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184175@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(290,770)',
+ XY='(770,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(290,770,310,780)',
+ SCH_BBOX='(770,730,790,740)',
  SECTION='';
 
 PART_NAME
  C624 'CAP NP_C0805_47UF/6.3V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141067@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141067@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141067@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187195@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187195@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187195@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1670,260)',
+ XY='(1490,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1670,260,1690,270)',
+ SCH_BBOX='(1490,720,1510,730)',
  SECTION='';
 
 PART_NAME
  C625 'CAP NP_C1210_22UF/16V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141201@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141201@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141201@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS186588@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins186588@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins186588@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1750,260)',
+ XY='(750,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1750,260,1770,270)',
+ SCH_BBOX='(750,370,770,380)',
  SECTION='';
 
 PART_NAME
  C626 'CAP NP_C0402_270NF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141346@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141346@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141346@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS186730@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins186730@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins186730@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1830,260)',
+ XY='(850,370)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1830,260,1850,270)',
+ SCH_BBOX='(850,370,870,380)',
  SECTION='';
 
 PART_NAME
  C627 'CAP NP_C0805_100NF/25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141493@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141493@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141493@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187024@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187024@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187024@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1910,260)',
+ XY='(1190,530)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1910,260,1930,270)',
+ SCH_BBOX='(1190,530,1210,540)',
  SECTION='';
 
 PART_NAME
  C628 'CAP NP_C0805_2.2UF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141543@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141543@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141543@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187493@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187493@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187493@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1590,430)',
+ XY='(1170,810)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1590,430,1610,440)',
+ SCH_BBOX='(1170,810,1190,820)',
  SECTION='';
 
 PART_NAME
  C629 'CAP NP_C0402_33NF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141680@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141680@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141680@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS186990@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins186990@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins186990@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1670,430)',
+ XY='(930,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1670,430,1690,440)',
+ SCH_BBOX='(930,730,950,740)',
  SECTION='';
 
 PART_NAME
  C630 'CAP NP_C1210_100UF/6.3V X6S':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142194@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142194@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142194@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188386@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188386@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188386@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1630,870)',
+ XY='(590,820)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1630,870,1650,880)',
+ SCH_BBOX='(590,820,610,830)',
  SECTION='';
 
 PART_NAME
  C631 'CAP NP_C0805_10UF/10V X5R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142335@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142335@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142335@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188670@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188670@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188670@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1710,870)',
+ XY='(1110,760)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1710,870,1730,880)',
+ SCH_BBOX='(1110,760,1130,770)',
  SECTION='';
 
 PART_NAME
  C632 'CAP NP_C0603_100NF/16V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142489@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142489@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142489@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188528@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188528@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188528@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1790,870)',
+ XY='(1030,760)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1790,870,1810,880)',
+ SCH_BBOX='(1030,760,1050,770)',
  SECTION='';
 
 PART_NAME
  C633 'CAP NP_C0402_100NF/10V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142645@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142645@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142645@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188214@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188214@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188214@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1870,870)',
+ XY='(840,690)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1870,870,1890,880)',
+ SCH_BBOX='(840,690,860,700)',
  SECTION='';
 
 PART_NAME
  C634 'CAP NP_C0402_22NF/16V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142694@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142694@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142694@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187972@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187972@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins187972@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1550,1040)',
+ XY='(790,510)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1550,1040,1570,1050)',
+ SCH_BBOX='(790,510,810,520)',
  SECTION='';
 
 PART_NAME
  C635 'CAP NP_C0402_100PF/50V C0G':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142838@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142838@discrete.\cap np.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142838@discrete.\cap np.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188181@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188181@discrete.\cap np.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188181@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1630,1040)',
+ XY='(610,430)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1630,1040,1650,1050)',
+ SCH_BBOX='(610,430,630,440)',
  SECTION='';
 
 PART_NAME
@@ -1469,7 +1469,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3208@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3208@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3208@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3208@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,720)',
  SCH_ORIENT='(180)',
@@ -1483,7 +1483,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3248@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3248@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3248@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3248@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,730)',
  SCH_ORIENT='(180)',
@@ -1497,7 +1497,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3354@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3354@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3354@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3354@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,770)',
  SCH_ORIENT='(180)',
@@ -1511,7 +1511,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3394@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3394@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3394@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3394@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,780)',
  SCH_ORIENT='(180)',
@@ -1525,7 +1525,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3498@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3498@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3498@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3498@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,810)',
  SCH_ORIENT='(180)',
@@ -1539,7 +1539,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3558@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3558@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3558@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3558@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,820)',
  SCH_ORIENT='(180)',
@@ -1553,7 +1553,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3698@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3698@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3698@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3698@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,850)',
  SCH_ORIENT='(180)',
@@ -1567,7 +1567,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3738@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3738@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3738@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3738@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1200,860)',
  SCH_ORIENT='(180)',
@@ -1581,7 +1581,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117636@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117636@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117636@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117636@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(250,470)',
  SCH_ORIENT='(180)',
@@ -1595,7 +1595,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117688@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117688@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117688@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117688@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(250,480)',
  SCH_ORIENT='(180)',
@@ -1607,14 +1607,14 @@ PART_NAME
  C7 'C_MLCC_C1206_DISCRETE_22UF25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31110@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31110@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31110@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS195711@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins195711@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins195711@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(570,190)',
+ XY='(850,480)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(570,190,590,200)',
+ SCH_BBOX='(850,480,870,490)',
  SECTION='';
 
 PART_NAME
@@ -1623,7 +1623,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51922@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51922@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51922@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51922@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1420,310)',
  SCH_ORIENT='(180)',
@@ -1637,7 +1637,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51974@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51974@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51974@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51974@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1420,320)',
  SCH_ORIENT='(180)',
@@ -1649,14 +1649,14 @@ PART_NAME
  C8 'C_MLCC_C1206_DISCRETE_22UF25V':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31126@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31126@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31126@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS195913@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins195913@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins195913@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(620,190)',
+ XY='(930,480)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(620,190,640,200)',
+ SCH_BBOX='(930,480,950,490)',
  SECTION='';
 
 PART_NAME
@@ -1665,7 +1665,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59946@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59946@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59946@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59946@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1100,830)',
  SCH_ORIENT='(180)',
@@ -1679,7 +1679,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59998@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59998@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59998@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59998@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1100,840)',
  SCH_ORIENT='(180)',
@@ -1691,14 +1691,14 @@ PART_NAME
  C9 'C_MLCC_C0402_DISCRETE_0.1UF':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31142@C.C_MLCC.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31142@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31142@c.\c_mlcc.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196517@C.C_MLCC.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196517@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196517@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(670,190)',
+ XY='(1170,480)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(670,190,690,200)',
+ SCH_BBOX='(1170,480,1190,490)',
  SECTION='';
 
 PART_NAME
@@ -1707,7 +1707,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52948@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52948@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52948@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52948@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1430,1230)',
  SCH_ORIENT='(180)',
@@ -1721,7 +1721,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS53000@C.C_MLCC.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins53000@c.\c_mlcc.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins53000@c.\c_mlcc.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins53000@c.\c_mlcc.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1430,1240)',
  SCH_ORIENT='(180)',
@@ -1735,7 +1735,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51570@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51570@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51570@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51570@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1760,160)',
  SCH_ORIENT='(90)',
@@ -1749,7 +1749,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51802@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51802@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51802@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51802@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1760,230)',
  SCH_ORIENT='(90)',
@@ -1763,7 +1763,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59594@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59594@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59594@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59594@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1440,680)',
  SCH_ORIENT='(90)',
@@ -1777,7 +1777,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59826@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59826@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59826@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59826@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1440,750)',
  SCH_ORIENT='(90)',
@@ -1791,7 +1791,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52596@C_MLCC.C_MLCC_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52596@c_mlcc.\c_mlcc_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52596@c_mlcc.\c_mlcc_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52596@c_mlcc.\c_mlcc_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1770,1080)',
  SCH_ORIENT='(90)',
@@ -1803,56 +1803,56 @@ PART_NAME
  DS1 'LED_0_LED-0805_RED':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32580@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32580@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32580@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197105@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197105@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197105@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(220,1120)',
+ XY='(240,870)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(220,1120,240,1160)',
+ SCH_BBOX='(240,870,260,910)',
  SECTION='';
 
 PART_NAME
  DS2 'LED_0_LED-0805_RED':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32604@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32604@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32604@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197291@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197291@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197291@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(280,1120)',
+ XY='(360,870)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(280,1120,300,1160)',
+ SCH_BBOX='(360,870,380,910)',
  SECTION='';
 
 PART_NAME
  DS4 'LED_0_LED-0805_RED':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32628@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32628@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32628@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197520@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197520@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197520@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(340,1120)',
+ XY='(480,870)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(340,1120,360,1160)',
+ SCH_BBOX='(480,870,500,910)',
  SECTION='';
 
 PART_NAME
  DS6 'LED_0_LED-0805_RED':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32996@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32996@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32996@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197744@PI7C9X3G1632GP_V20_20180806.LED_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197744@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197744@pi7c9x3g1632gp_v20_20180806.\led_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(260,1360)',
+ XY='(750,870)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(260,1360,280,1400)',
+ SCH_BBOX='(750,870,770,910)',
  SECTION='';
 
 PART_NAME
@@ -1861,7 +1861,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS47376@CONNECTOR.HEADER 16X2.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins47376@connector.\header 16x2.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins47376@connector.\header 16x2.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page15_ins47376@connector.\header 16x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1390,560)',
  SCH_ORIENT='(0)',
@@ -1875,7 +1875,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117552@PI7C9X3G808GP_V01.HEADER 3_1.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117552@pi7c9x3g808gp_v01.\header 3_1.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117552@pi7c9x3g808gp_v01.\header 3_1.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117552@pi7c9x3g808gp_v01.\header 3_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(850,410)',
  SCH_ORIENT='(0)',
@@ -1887,56 +1887,56 @@ PART_NAME
  L2 'INDUCTOR_IND_XAL8080_680NH':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS137711@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins137711@discrete.\inductor.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins137711@discrete.\inductor.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184644@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184644@discrete.\inductor.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184644@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(50,460)',
+ XY='(1300,560)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(50,460,60,500)',
+ SCH_BBOX='(1300,560,1310,600)',
  SECTION='';
 
 PART_NAME
  L3 'INDUCTOR_IND_XAL5020_560NH':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141019@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141019@discrete.\inductor.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141019@discrete.\inductor.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187062@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187062@discrete.\inductor.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187062@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1590,260)',
+ XY='(1300,560)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1590,260,1600,300)',
+ SCH_BBOX='(1300,560,1310,600)',
  SECTION='';
 
 PART_NAME
  L4 'INDUCTOR_IND_XAL7030_1.5UH':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142147@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142147@discrete.\inductor.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142147@discrete.\inductor.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188252@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188252@discrete.\inductor.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188252@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1550,870)',
+ XY='(780,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1550,870,1560,910)',
+ SCH_BBOX='(780,720,790,760)',
  SECTION='';
 
 PART_NAME
  P11 'DSK_PWR_CONN_0_PWR-4P-90_DSK_PWR_CONN':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS30922@PI7_KEVINFLORES.DSK_PWR_CONN_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins30922@pi7_kevinflores.\dsk_pwr_conn_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins30922@pi7_kevinflores.\dsk_pwr_conn_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS194475@PI7_KEVINFLORES.DSK_PWR_CONN_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins194475@pi7_kevinflores.\dsk_pwr_conn_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins194475@pi7_kevinflores.\dsk_pwr_conn_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(20,180)',
+ XY='(150,250)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(20,180,70,250)',
+ SCH_BBOX='(150,250,200,320)',
  SECTION='';
 
 PART_NAME
@@ -1945,7 +1945,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS2800@JOHN.PCIEX4.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins2800@john.\pciex4.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins2800@john.\pciex4.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins2800@john.\pciex4.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(930,550)',
  SCH_ORIENT='(0)',
@@ -1957,28 +1957,28 @@ PART_NAME
  PWR2 'PWR_ATX12V_3_455580003_PWRCONN6P':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS30830@PI7C9X3G1632GP_DAUGHTER_BOARD_V10_20160519.PWR_ATX12V_3.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins30830@pi7c9x3g1632gp_daughter_board_v10_20160519.\pwr_atx12v_3.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins30830@pi7c9x3g1632gp_daughter_board_v10_20160519.\pwr_atx12v_3.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS194979@PI7C9X3G1632GP_DAUGHTER_BOARD_V10_20160519.PWR_ATX12V_3.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins194979@pi7c9x3g1632gp_daughter_board_v10_20160519.\pwr_atx12v_3.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins194979@pi7c9x3g1632gp_daughter_board_v10_20160519.\pwr_atx12v_3.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(427,150)',
+ XY='(503,300)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(427,150,500,250)',
+ SCH_BBOX='(503,300,576,400)',
  SECTION='';
 
 PART_NAME
  Q1 'NMOS_SGD_0_SOT23SGD_T_2N7002A':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS33052@MS-7728-20-20110526.NMOS_SGD_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins33052@\ms-7728-20-20110526\.\nmos_sgd_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins33052@\ms-7728-20-20110526\.\nmos_sgd_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197894@MS-7728-20-20110526.NMOS_SGD_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197894@\ms-7728-20-20110526\.\nmos_sgd_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197894@\ms-7728-20-20110526\.\nmos_sgd_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(260,1430)',
+ XY='(750,950)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(260,1430,280,1450)',
+ SCH_BBOX='(750,950,770,970)',
  SECTION='';
 
 PART_NAME
@@ -1987,12 +1987,12 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS17731@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins17731@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins17731@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins17731@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(-140,890)',
+ XY='(125,1225)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(-140,890,-120,910)',
+ SCH_BBOX='(125,1225,145,1245)',
  SECTION='';
 
 PART_NAME
@@ -2001,12 +2001,12 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS17747@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins17747@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins17747@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins17747@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(-120,890)',
+ XY='(145,1225)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(-120,890,-100,910)',
+ SCH_BBOX='(145,1225,165,1245)',
  SECTION='';
 
 PART_NAME
@@ -2015,12 +2015,12 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS17715@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins17715@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins17715@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins17715@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(-160,890)',
+ XY='(105,1225)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(-160,890,-140,910)',
+ SCH_BBOX='(105,1225,125,1245)',
  SECTION='';
 
 PART_NAME
@@ -2029,12 +2029,12 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS18603@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins18603@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins18603@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins18603@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(-120,970)',
+ XY='(145,1305)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(1)',
- SCH_BBOX='(-120,970,-100,990)',
+ SCH_BBOX='(145,1305,165,1325)',
  SECTION='';
 
 PART_NAME
@@ -2043,7 +2043,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49534@PI7C9X2G608EL_V10_0128.R_4.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49534@pi7c9x2g608el_v10_0128.\r_4.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49534@pi7c9x2g608el_v10_0128.\r_4.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49534@pi7c9x2g608el_v10_0128.\r_4.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1150,780)',
  SCH_ORIENT='(270)',
@@ -2057,7 +2057,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48768@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48768@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48768@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48768@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(600,580)',
  SCH_ORIENT='(180)',
@@ -2071,7 +2071,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48816@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48816@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48816@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48816@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(600,590)',
  SCH_ORIENT='(180)',
@@ -2083,70 +2083,70 @@ PART_NAME
  R17 'R_2P_R0402_1K':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32500@R.R_2P.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32500@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32500@r.\r_2p.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196975@R.R_2P.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196975@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196975@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(220,1080)',
+ XY='(240,810)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(220,1080,240,1100)',
+ SCH_BBOX='(240,810,260,830)',
  SECTION='';
 
 PART_NAME
  R18 'R_2P_R0402_330R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32516@R.R_2P.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32516@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32516@r.\r_2p.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197159@R.R_2P.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197159@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197159@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(280,1080)',
+ XY='(360,810)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(280,1080,300,1100)',
+ SCH_BBOX='(360,810,380,830)',
  SECTION='';
 
 PART_NAME
  R20 'R_2P_R0402_330R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32532@R.R_2P.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32532@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32532@r.\r_2p.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197388@R.R_2P.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197388@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197388@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(340,1080)',
+ XY='(480,810)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(340,1080,360,1100)',
+ SCH_BBOX='(480,810,500,830)',
  SECTION='';
 
 PART_NAME
  R27 'R_2P_R0402_5.1K':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32916@R.R_2P.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32916@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32916@r.\r_2p.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197623@R.R_2P.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197623@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197623@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(220,1310)',
+ XY='(630,810)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(220,1310,240,1330)',
+ SCH_BBOX='(630,810,650,830)',
  SECTION='';
 
 PART_NAME
  R28 'R_2P_R0402_330R':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS32932@R.R_2P.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins32932@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins32932@r.\r_2p.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS197710@R.R_2P.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins197710@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins197710@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(260,1310)',
+ XY='(750,810)',
  SCH_ORIENT='(270)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(260,1310,280,1330)',
+ SCH_BBOX='(750,810,770,830)',
  SECTION='';
 
 PART_NAME
@@ -2155,7 +2155,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS2956@LIB1.R_2.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins2956@lib1.\r_2.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins2956@lib1.\r_2.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins2956@lib1.\r_2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(540,590)',
  SCH_ORIENT='(90)',
@@ -2169,7 +2169,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3004@LIB1.R_2.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3004@lib1.\r_2.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3004@lib1.\r_2.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3004@lib1.\r_2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(540,600)',
  SCH_ORIENT='(90)',
@@ -2183,7 +2183,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3092@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3092@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3092@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3092@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1390,690)',
  SCH_ORIENT='(180)',
@@ -2197,7 +2197,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS3142@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins3142@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins3142@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page10_ins3142@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1390,700)',
  SCH_ORIENT='(180)',
@@ -2211,7 +2211,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS853@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins853@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins853@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins853@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(970,370)',
  SCH_ORIENT='(90)',
@@ -2225,7 +2225,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS945@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins945@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins945@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins945@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(970,450)',
  SCH_ORIENT='(90)',
@@ -2239,7 +2239,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1203@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1203@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1203@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1203@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(970,930)',
  SCH_ORIENT='(90)',
@@ -2253,7 +2253,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1295@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1295@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1295@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1295@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(970,1010)',
  SCH_ORIENT='(90)',
@@ -2267,7 +2267,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117742@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117742@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117742@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117742@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(860,490)',
  SCH_ORIENT='(180)',
@@ -2281,7 +2281,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51858@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51858@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51858@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51858@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1830,270)',
  SCH_ORIENT='(180)',
@@ -2295,7 +2295,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52478@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52478@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52478@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52478@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1330,480)',
  SCH_ORIENT='(180)',
@@ -2309,7 +2309,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59882@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59882@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59882@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59882@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1490,790)',
  SCH_ORIENT='(180)',
@@ -2323,7 +2323,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS60186@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins60186@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins60186@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins60186@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,970)',
  SCH_ORIENT='(90)',
@@ -2337,7 +2337,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52884@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52884@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52884@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52884@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1820,1190)',
  SCH_ORIENT='(180)',
@@ -2351,7 +2351,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS53288@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins53288@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins53288@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins53288@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1460,1370)',
  SCH_ORIENT='(90)',
@@ -2365,7 +2365,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117478@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117478@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117478@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117478@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(860,380)',
  SCH_ORIENT='(180)',
@@ -2379,7 +2379,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117910@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117910@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117910@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117910@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(280,610)',
  SCH_ORIENT='(90)',
@@ -2391,168 +2391,168 @@ PART_NAME
  R530 'R_R0603_576K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140165@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140165@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140165@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183787@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183787@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183787@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(370,770)',
+ XY='(610,490)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(370,770,390,800)',
+ SCH_BBOX='(610,490,630,520)',
  SECTION='';
 
 PART_NAME
  R531 'R_R0402_100K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140287@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140287@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140287@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS183917@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins183917@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins183917@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(450,770)',
+ XY='(610,570)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(450,770,470,800)',
+ SCH_BBOX='(610,570,630,600)',
  SECTION='';
 
 PART_NAME
  R532 'R_R0402_5.76K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140418@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140418@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140418@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184306@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184306@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184306@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(530,770)',
+ XY='(850,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(530,770,550,800)',
+ SCH_BBOX='(850,730,870,760)',
  SECTION='';
 
 PART_NAME
  R533 'R_R0402_4.99K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140551@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140551@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140551@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184437@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184437@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184437@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(610,770)',
+ XY='(930,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(610,770,630,800)',
+ SCH_BBOX='(930,730,950,760)',
  SECTION='';
 
 PART_NAME
  R534 'R_R0402_26.7K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140683@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140683@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140683@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184732@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184732@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184732@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(690,770)',
+ XY='(1390,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(690,770,710,800)',
+ SCH_BBOX='(1390,720,1410,750)',
  SECTION='';
 
 PART_NAME
  R535 'R_R0402_10K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140783@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140783@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140783@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184862@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184862@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184862@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(770,770)',
+ XY='(1390,790)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(770,770,790,800)',
+ SCH_BBOX='(1390,790,1410,820)',
  SECTION='';
 
 PART_NAME
  R536 'R_R0402_10K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS140917@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins140917@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins140917@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS184525@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins184525@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins184525@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(850,770)',
+ XY='(1070,410)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(850,770,870,800)',
+ SCH_BBOX='(1070,410,1090,440)',
  SECTION='';
 
 PART_NAME
  R537 'R_R0402_5.49K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141818@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141818@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141818@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS186859@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins186859@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins186859@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1750,430)',
+ XY='(850,730)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1750,430,1770,460)',
+ SCH_BBOX='(850,730,870,760)',
  SECTION='';
 
 PART_NAME
  R538 'R_R0402_665R 0.1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS141957@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins141957@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins141957@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187232@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187232@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187232@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1830,430)',
+ XY='(1390,720)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1830,430,1850,460)',
+ SCH_BBOX='(1390,720,1410,750)',
  SECTION='';
 
 PART_NAME
  R539 'R_R0402_10K 0.1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142006@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142006@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142006@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS187362@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins187362@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins187362@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1910,430)',
+ XY='(1390,790)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1910,430,1930,460)',
+ SCH_BBOX='(1390,790,1410,820)',
  SECTION='';
 
 PART_NAME
  R540 'R_R0603_1.87K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142887@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142887@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142887@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188011@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188011@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188011@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1710,1040)',
+ XY='(690,420)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1710,1040,1730,1070)',
+ SCH_BBOX='(690,420,710,450)',
  SECTION='';
 
 PART_NAME
  R541 'R_R0402_10K 1%':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS142938@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins142938@discrete.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins142938@discrete.\r.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS188142@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins188142@discrete.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins188142@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1790,1040)',
+ XY='(690,490)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1790,1040,1810,1070)',
+ SCH_BBOX='(690,490,710,520)',
  SECTION='';
 
 PART_NAME
@@ -2561,7 +2561,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48784@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48784@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48784@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48784@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,580)',
  SCH_ORIENT='(180)',
@@ -2575,7 +2575,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48844@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48844@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48844@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48844@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,590)',
  SCH_ORIENT='(180)',
@@ -2589,7 +2589,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48894@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48894@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48894@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48894@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,600)',
  SCH_ORIENT='(180)',
@@ -2603,7 +2603,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48952@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48952@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48952@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48952@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,610)',
  SCH_ORIENT='(180)',
@@ -2617,7 +2617,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49024@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49024@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49024@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49024@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,620)',
  SCH_ORIENT='(180)',
@@ -2631,7 +2631,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49072@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49072@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49072@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49072@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,630)',
  SCH_ORIENT='(180)',
@@ -2645,7 +2645,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49120@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49120@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49120@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49120@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,640)',
  SCH_ORIENT='(180)',
@@ -2659,7 +2659,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49174@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49174@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49174@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49174@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1180,650)',
  SCH_ORIENT='(180)',
@@ -2673,7 +2673,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15867@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15867@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15867@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15867@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1110,690)',
  SCH_ORIENT='(0)',
@@ -2687,7 +2687,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16413@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16413@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16413@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16413@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(550,830)',
  SCH_ORIENT='(0)',
@@ -2701,7 +2701,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16461@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16461@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16461@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16461@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(550,840)',
  SCH_ORIENT='(0)',
@@ -2715,7 +2715,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15935@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15935@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15935@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15935@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1110,700)',
  SCH_ORIENT='(0)',
@@ -2729,7 +2729,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15583@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15583@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15583@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15583@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(570,560)',
  SCH_ORIENT='(0)',
@@ -2743,7 +2743,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15481@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15481@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15481@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15481@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(560,500)',
  SCH_ORIENT='(0)',
@@ -2757,7 +2757,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15521@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15521@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15521@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15521@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(560,510)',
  SCH_ORIENT='(0)',
@@ -2771,7 +2771,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49468@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49468@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49468@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49468@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(580,750)',
  SCH_ORIENT='(0)',
@@ -2785,7 +2785,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15497@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15497@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15497@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15497@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1050,500)',
  SCH_ORIENT='(0)',
@@ -2799,7 +2799,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48930@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48930@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48930@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48930@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(570,610)',
  SCH_ORIENT='(180)',
@@ -2813,7 +2813,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48996@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48996@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48996@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48996@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(570,620)',
  SCH_ORIENT='(180)',
@@ -2827,7 +2827,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16585@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16585@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16585@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16585@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1190,890)',
  SCH_ORIENT='(90)',
@@ -2841,7 +2841,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16601@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16601@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16601@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16601@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1210,890)',
  SCH_ORIENT='(90)',
@@ -2855,7 +2855,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16617@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16617@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16617@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16617@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1230,890)',
  SCH_ORIENT='(90)',
@@ -2869,7 +2869,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16633@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16633@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16633@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16633@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1250,890)',
  SCH_ORIENT='(90)',
@@ -2883,7 +2883,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16649@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16649@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16649@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16649@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1270,890)',
  SCH_ORIENT='(90)',
@@ -2897,7 +2897,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16665@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16665@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16665@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16665@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1290,890)',
  SCH_ORIENT='(90)',
@@ -2911,7 +2911,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16681@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16681@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16681@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16681@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1310,890)',
  SCH_ORIENT='(90)',
@@ -2925,7 +2925,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS175702@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins175702@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins175702@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins175702@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(320,200)',
  SCH_ORIENT='(0)',
@@ -2939,7 +2939,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS175790@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins175790@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins175790@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins175790@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(320,230)',
  SCH_ORIENT='(0)',
@@ -2953,7 +2953,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS175877@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins175877@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins175877@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins175877@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(320,260)',
  SCH_ORIENT='(0)',
@@ -2967,7 +2967,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS175965@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins175965@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins175965@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins175965@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(320,290)',
  SCH_ORIENT='(0)',
@@ -2981,7 +2981,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176054@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176054@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176054@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176054@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(320,320)',
  SCH_ORIENT='(0)',
@@ -2995,7 +2995,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16523@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16523@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16523@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16523@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(550,850)',
  SCH_ORIENT='(180)',
@@ -3009,7 +3009,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS16173@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins16173@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins16173@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins16173@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(550,740)',
  SCH_ORIENT='(180)',
@@ -3023,7 +3023,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS49502@R.R.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins49502@r.\r.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins49502@r.\r.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins49502@r.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(580,770)',
  SCH_ORIENT='(0)',
@@ -3037,7 +3037,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176144@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176144@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176144@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176144@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(730,200)',
  SCH_ORIENT='(180)',
@@ -3051,7 +3051,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176203@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176203@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176203@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176203@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(730,230)',
  SCH_ORIENT='(180)',
@@ -3065,7 +3065,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176263@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176263@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176263@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176263@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(730,260)',
  SCH_ORIENT='(180)',
@@ -3079,7 +3079,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176324@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176324@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176324@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176324@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(730,290)',
  SCH_ORIENT='(180)',
@@ -3093,7 +3093,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176386@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176386@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176386@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176386@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,200)',
  SCH_ORIENT='(180)',
@@ -3107,7 +3107,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176449@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176449@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176449@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176449@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,230)',
  SCH_ORIENT='(180)',
@@ -3121,7 +3121,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176513@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176513@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176513@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176513@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,260)',
  SCH_ORIENT='(180)',
@@ -3135,7 +3135,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176578@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176578@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176578@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176578@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,290)',
  SCH_ORIENT='(180)',
@@ -3149,7 +3149,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176644@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176644@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176644@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins176644@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1130,320)',
  SCH_ORIENT='(180)',
@@ -3163,7 +3163,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176711@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176711@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176711@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page15_ins176711@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(530,200)',
  SCH_ORIENT='(180)',
@@ -3177,7 +3177,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176759@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176759@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176759@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page15_ins176759@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(530,230)',
  SCH_ORIENT='(180)',
@@ -3191,7 +3191,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS176808@R.R_2P.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins176808@r.\r_2p.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins176808@r.\r_2p.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page15_ins176808@r.\r_2p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(530,260)',
  SCH_ORIENT='(180)',
@@ -3205,7 +3205,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS51586@PI7C9X3G808GP_V01.PCIEXP_X4_1.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins51586@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins51586@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins51586@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1570,170)',
  SCH_ORIENT='(0)',
@@ -3219,7 +3219,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS59610@PI7C9X3G808GP_V01.PCIEXP_X4_1.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins59610@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins59610@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins59610@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1250,690)',
  SCH_ORIENT='(0)',
@@ -3233,7 +3233,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS52612@PI7C9X3G808GP_V01.PCIEXP_X4_1.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins52612@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins52612@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins52612@pi7c9x3g808gp_v01.\pciexp_x4_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1580,1090)',
  SCH_ORIENT='(0)',
@@ -3247,7 +3247,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS117062@PI7C9X3G808GP_V01.PCIE X16 CONN_0..NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins117062@pi7c9x3g808gp_v01.\pcie x16 conn_0..normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins117062@pi7c9x3g808gp_v01.\pcie x16 conn_0..normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page12_ins117062@pi7c9x3g808gp_v01.\pcie x16 conn_0..normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(400,330)',
  SCH_ORIENT='(0)',
@@ -3259,14 +3259,14 @@ PART_NAME
  TP2 'TP_0_TESTPIN25_X_TESTPOINT':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS30788@TP.TP_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins30788@tp.\tp_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins30788@tp.\tp_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS195099@TP.TP_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins195099@tp.\tp_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins195099@tp.\tp_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(710,140)',
+ XY='(640,430)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(710,140,730,160)',
+ SCH_BBOX='(640,430,660,450)',
  SECTION='';
 
 PART_NAME
@@ -3275,7 +3275,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15883@TP.TP_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15883@tp.\tp_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15883@tp.\tp_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15883@tp.\tp_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1260,690)',
  SCH_ORIENT='(0)',
@@ -3287,28 +3287,28 @@ PART_NAME
  TP5 'TP_0_TESTPIN25_X_TESTPOINT':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31342@TP.TP_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31342@tp.\tp_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31342@tp.\tp_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196802@TP.TP_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196802@tp.\tp_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196802@tp.\tp_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(750,270)',
+ XY='(1090,620)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(750,270,770,290)',
+ SCH_BBOX='(1090,620,1110,640)',
  SECTION='';
 
 PART_NAME
  TP6 'TP_0_TESTPIN25_X_TESTPOINT':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS31496@TP.TP_0.NORMAL(CHIPS)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins31496@tp.\tp_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins31496@tp.\tp_0.normal\(chips)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS196877@TP.TP_0.NORMAL(CHIPS)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins196877@tp.\tp_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page4_ins196877@tp.\tp_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(750,360)',
+ XY='(1150,620)',
  SCH_ORIENT='(90)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(750,360,770,380)',
+ SCH_BBOX='(1150,620,1170,640)',
  SECTION='';
 
 PART_NAME
@@ -3317,7 +3317,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS667@PI7C9X2G404_V5.0_SL&SV.AP7361C_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins667@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins667@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins667@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(800,320)',
  SCH_ORIENT='(0)',
@@ -3331,7 +3331,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS1017@PI7C9X2G404_V5.0_SL&SV.AP7361C_0.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins1017@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins1017@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page8_ins1017@\pi7c9x2g404_v5.0_sl&sv\.\ap7361c_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(800,880)',
  SCH_ORIENT='(0)',
@@ -3343,42 +3343,42 @@ PART_NAME
  U55 'PTPS54KB20RZRR_RZR0016A-MFG_TPS54KB20RZR':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS136154@UL_TPS54KB20.PTPS54KB20RZRR.NORMAL(SCH_1)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins136154@ul_tps54kb20.\ptps54kb20rzrr.normal\(sch_1)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins136154@ul_tps54kb20.\ptps54kb20rzrr.normal\(sch_1)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS182243@UL_TPS54KB20.PTPS54KB20RZRR.NORMAL(SCH_1)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins182243@ul_tps54kb20.\ptps54kb20rzrr.normal\(sch_1)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page5_ins182243@ul_tps54kb20.\ptps54kb20rzrr.normal\(sch_1)',
  PRIM_FILE='.\pstchip.dat',
- XY='(290,540)',
+ XY='(1000,500)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(290,540,420,720)',
+ SCH_BBOX='(1000,500,1130,680)',
  SECTION='';
 
 PART_NAME
  U56 'TPS54J060RPGR_RPG0014A-MFG_TPS54J060RPG':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS136245@UL_TPS54J060.TPS54J060RPGR.NORMAL(SCH_1)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins136245@ul_tps54j060.\tps54j060rpgr.normal\(sch_1)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins136245@ul_tps54j060.\tps54j060rpgr.normal\(sch_1)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS186422@UL_TPS54J060.TPS54J060RPGR.NORMAL(SCH_1)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins186422@ul_tps54j060.\tps54j060rpgr.normal\(sch_1)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page6_ins186422@ul_tps54j060.\tps54j060rpgr.normal\(sch_1)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1320,370)',
+ XY='(1000,500)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1320,370,1440,570)',
+ SCH_BBOX='(1000,500,1120,700)',
  SECTION='';
 
 PART_NAME
  U57 'TPS62933FDRLR_SOT5X3-8_DRL_TEX_TPS62933FDRLR':;
 
 SECTION_NUMBER 1
- '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS136316@UL_TPS62933F.TPS62933FDRLR.NORMAL(SCH_1)':
- C_PATH='@pi7_kevinflores.schematic1(sch_1):ins136316@ul_tps62933f.\tps62933fdrlr.normal\(sch_1)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins136316@ul_tps62933f.\tps62933fdrlr.normal\(sch_1)',
+ '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS189184@UL_TPS62933F.TPS62933FDRLR.NORMAL(SCH_1)':
+ C_PATH='@pi7_kevinflores.schematic1(sch_1):ins189184@ul_tps62933f.\tps62933fdrlr.normal\(sch_1)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page7_ins189184@ul_tps62933f.\tps62933fdrlr.normal\(sch_1)',
  PRIM_FILE='.\pstchip.dat',
- XY='(1300,950)',
+ XY='(1000,500)',
  SCH_ORIENT='(0)',
  SCH_MIRROR='(0)',
- SCH_BBOX='(1300,950,1400,1100)',
+ SCH_BBOX='(1000,500,1100,650)',
  SECTION='';
 
 PART_NAME
@@ -3387,7 +3387,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS7531@PI7C9X3G808GP.PI7C9X3G808GP_17A.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins7531@pi7c9x3g808gp.\pi7c9x3g808gp_17a.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins7531@pi7c9x3g808gp.\pi7c9x3g808gp_17a.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page9_ins7531@pi7c9x3g808gp.\pi7c9x3g808gp_17a.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(520,340)',
  SCH_ORIENT='(0)',
@@ -3398,7 +3398,7 @@ SECTION_NUMBER 1
 SECTION_NUMBER 2
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS15291@PI7C9X3G808GP.PI7C9X3G808GP_17B.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins15291@pi7c9x3g808gp.\pi7c9x3g808gp_17b.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins15291@pi7c9x3g808gp.\pi7c9x3g808gp_17b.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page14_ins15291@pi7c9x3g808gp.\pi7c9x3g808gp_17b.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(520,340)',
  SCH_ORIENT='(0)',
@@ -3409,7 +3409,7 @@ SECTION_NUMBER 2
 SECTION_NUMBER 3
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS4426@PI7C9X3G808GP.PI7C9X3G808GP_17C.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins4426@pi7c9x3g808gp.\pi7c9x3g808gp_17c.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins4426@pi7c9x3g808gp.\pi7c9x3g808gp_17c.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page11_ins4426@pi7c9x3g808gp.\pi7c9x3g808gp_17c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(520,340)',
  SCH_ORIENT='(0)',
@@ -3420,7 +3420,7 @@ SECTION_NUMBER 3
 SECTION_NUMBER 4
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS48706@PI7C9X3G808GP.PI7C9X3G808GP_17D.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins48706@pi7c9x3g808gp.\pi7c9x3g808gp_17d.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins48706@pi7c9x3g808gp.\pi7c9x3g808gp_17d.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page13_ins48706@pi7c9x3g808gp.\pi7c9x3g808gp_17d.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(520,340)',
  SCH_ORIENT='(0)',
@@ -3431,7 +3431,7 @@ SECTION_NUMBER 4
 SECTION_NUMBER 5
  '@PI7_KEVINFLORES.SCHEMATIC1(SCH_1):INS47232@PI7C9X3G808GP.PI7C9X3G808GP_17E.NORMAL(CHIPS)':
  C_PATH='@pi7_kevinflores.schematic1(sch_1):ins47232@pi7c9x3g808gp.\pi7c9x3g808gp_17e.normal\(chips)',
- P_PATH='@pi7_kevinflores.schematic1(sch_1):page_ins47232@pi7c9x3g808gp.\pi7c9x3g808gp_17e.normal\(chips)',
+ P_PATH='@pi7_kevinflores.schematic1(sch_1):page15_ins47232@pi7c9x3g808gp.\pi7c9x3g808gp_17e.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(520,340)',
  SCH_ORIENT='(0)',
