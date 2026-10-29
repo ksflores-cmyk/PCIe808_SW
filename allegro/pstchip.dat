@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 25.1.0 d001Oct-25-2026 at 14:43:12}
+{ Using PSTWRITER 25.1.0 d001Oct-28-2026 at 23:40:19}
 primitive 'BEAD_L1812_HI1812V101R-10';
   pin
     '2':
@@ -868,19 +868,19 @@ primitive 'PCIEX4_PCI_EXPRESS_X4_X_PCIEX4';
 end_primitive;
 primitive 'PWR_ATX12V_3_455580003_PWRCONN6P';
   pin
-    'GND#1':
+    '+12V#1':
       PIN_NUMBER='(1)';
       PINUSE='POWER';
-    'GND#2':
+    '+12V#2':
       PIN_NUMBER='(2)';
       PINUSE='POWER';
-    '12V#5':
+    'GND#5':
       PIN_NUMBER='(5)';
       PINUSE='POWER';
-    '12V#6':
+    'GND#6':
       PIN_NUMBER='(6)';
       PINUSE='POWER';
-    'GND#3':
+    '+12V#3':
       PIN_NUMBER='(3)';
       PINUSE='POWER';
     'GND#4':

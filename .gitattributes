@@ -15,3 +15,6 @@
 # Texto de Cadence (se versiona con diff legible)
 *.opj text eol=crlf
 *.dat text eol=crlf
+# Script auxiliar: no contar en las estadisticas de lenguaje de GitHub
+*.cmd linguist-detectable=false
+*.bat linguist-detectable=false
