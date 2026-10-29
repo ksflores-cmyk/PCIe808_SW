@@ -20,7 +20,9 @@
   ![OrCAD X](https://img.shields.io/badge/Cadence-OrCAD%20X%2025.1-C4122F)
   ![PCIe](https://img.shields.io/badge/PCIe-Gen%203%20(8%20GT%2Fs)-0A66C2)
   ![Switch](https://img.shields.io/badge/Switch-PI7C9X3G808GP-555555)
-  ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-F2A900)
+  ![Estado](https://img.shields.io/badge/Entrega%201-completa-2EA043)
+  ![DRC](https://img.shields.io/badge/DRC%20Allegro-0%20errores-2EA043)
+  ![Capas](https://img.shields.io/badge/PCB-6%20capas-8250DF)
 </div>
 
 ---
@@ -28,17 +30,20 @@
 ## Tabla de contenido
 
 1. [Descripción general](#descripción-general)
-2. [Especificaciones principales](#especificaciones-principales)
-3. [Objetivos](#objetivos)
-4. [Arquitectura del sistema](#arquitectura-del-sistema)
-5. [Etapa de potencia](#etapa-de-potencia)
-6. [Componentes principales](#componentes-principales)
-7. [Herramientas de diseño](#herramientas-de-diseño)
-8. [Estructura del repositorio](#estructura-del-repositorio)
-9. [Cómo abrir el proyecto](#cómo-abrir-el-proyecto)
-10. [Estado del proyecto](#estado-del-proyecto)
-11. [Aviso](#aviso)
-12. [Autor](#autor)
+2. [Vista general del diseño](#vista-general-del-diseño)
+3. [Especificaciones principales](#especificaciones-principales)
+4. [Objetivos](#objetivos)
+5. [Arquitectura del sistema](#arquitectura-del-sistema)
+6. [Etapa de potencia](#etapa-de-potencia)
+7. [Layout de la PCB](#layout-de-la-pcb)
+8. [Componentes principales](#componentes-principales)
+9. [Herramientas de diseño](#herramientas-de-diseño)
+10. [Estructura del repositorio](#estructura-del-repositorio)
+11. [Cómo abrir el proyecto](#cómo-abrir-el-proyecto)
+12. [Estado del proyecto](#estado-del-proyecto)
+13. [Entregables de fabricación](#entregables-de-fabricación)
+14. [Aviso](#aviso)
+15. [Autor](#autor)
 
 ---
 
@@ -49,6 +54,15 @@ Este repositorio contiene el diseño de hardware de una tarjeta de expansión **
 El proyecto cubre el flujo completo de diseño en Cadence OrCAD X: captura esquemática, diseño propio de la etapa de potencia, creación de símbolos y *footprints*, layout de la PCB con ruteo de pares diferenciales de alta velocidad y generación de archivos de fabricación.
 
 El diseño parte del esquemático de referencia de la tarjeta de evaluación del fabricante. Sobre esa base, la **etapa de potencia se rediseñó por completo** con tres convertidores *buck* discretos dimensionados en TI WEBENCH.
+
+## Vista general del diseño
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="docs/img/pcb_vista_general.png" alt="Vista general del layout" width="100%"><br><sub>Layout completo: las 4 capas de señal superpuestas, con los pads en dorado.</sub></td>
+    <td align="center" width="50%"><img src="docs/img/vista_3d_preliminar.png" alt="Vista 3D preliminar" width="100%"><br><sub>Vista 3D preliminar en Allegro 3DX Canvas. Los cuerpos de los componentes son volúmenes de <em>place bound</em>; los modelos STEP se agregan en la Entrega 2.</sub></td>
+  </tr>
+</table>
 
 ## Especificaciones principales
 
@@ -120,6 +134,49 @@ flowchart LR
 
 El detalle de cada diseño (requisitos, BOM y alternativas descartadas) está en [`docs/webench/`](docs/webench/).
 
+### Red de distribución de potencia (PDN)
+
+La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cuatro capas de señal entre los Bucks y las ranuras. Por eso cada riel usa una capa distinta, y ninguno corta los planos GND02 y PWR05, que son la referencia de los pares PCIe.
+
+![Distribución de potencia por capa](docs/img/distribucion_potencia_capas.png)
+
+| Riel | Fuente | Ruta en la PCB | Corriente de diseño | Caída estimada |
+|---|---|---|---|---|
+| 12VCC_EXT | PWR2 (PCIe 6 pines) y P11 | Zona en ART03, franja en BOTTOM y los pines pasantes de las ranuras | 4 × 2.1 A (x1 de 25 W) + 4.6 A del Buck 1 | ≈ 14 mV |
+| 3.3V_EXT | Buck 1 · TPS54KB20 | TOP → 23 vías → zona en BOTTOM → 40 vías → zona en ART04 bajo las ranuras | 4 × 3 A + LDO y lógica | ≈ 18 mV |
+| 5VCC_EXT | P11 (Molex de 4 pines) | Pista de 50 mil en TOP; cruce corto por ART03 hasta el Buck 2 | 1.2 A | ≈ 75 mV |
+| 0.95V_VDDC / 0.95V_VP | Buck 2 y Buck 3 | Zonas en PWR05 y ART03 bajo el BGA, a través de ferritas | 4 A / 1 A | — |
+| 1.8V_EXT / 0.95V_CVDDC | LDO AP7361C (U54 / U53) | Pistas de 15–25 mil hasta las ferritas BD3, BD5, BD6 y BD9 | ≤ 1 A | — |
+| 3.3VAUX | Host, por el conector de borde | Pista de 20 mil hasta C54–C56 | 0.375 A | — |
+
+- **Sensado del Buck 1** (R534) tomado en los capacitores de salida mediante una pista dedicada en ART04, para que la regulación no dependa de la corriente de carga.
+- **Capacitores bulk de 3.3 V** junto a los pines de cada ranura (C96, C98, C100, C102).
+- **Secuencia de encendido** ruteada: PG_3V3 (Buck 1 → EN del Buck 2) y U2_PGOOD (Buck 2 → EN del Buck 3 y LED Q1).
+
+## Layout de la PCB
+
+### Stack-up
+
+![Stack-up de 6 capas](docs/img/stackup.png)
+
+| Parámetro | Valor |
+|---|---|
+| Capas | 6: TOP · GND02 · ART03 · ART04 · PWR05 · BOTTOM |
+| Espesor | ≈ 62 mil (1.6 mm) |
+| Pares PCIe | 85 Ω diferencial, referenciados a un plano de GND continuo |
+| Vía estándar | VIA10_20 (taladro de 10 mil, pad de 20 mil) |
+| Separación mínima | 6 mil línea–línea · 7 mil a zonas de cobre |
+
+### Ruteo de alta velocidad
+
+![Ruteo PCIe](docs/img/ruteo_pcie.png)
+
+- **Upstream x4**: del conector de borde al switch, con los capacitores de acople AC (0402) junto a los dedos dorados.
+- **Downstream x1**: un par TX, un par RX y un reloj de referencia por ranura (SLOT4–SLOT7).
+- **Igualación de longitudes** dentro de cada par mediante serpentines (tolerancia de ±0.3 mil) y separación de 20–25 mil entre pares distintos.
+- **Retorno de corriente**: los pares en TOP y ART03 se referencian a GND02, y los de ART04 y BOTTOM a PWR05. Ninguna zona de potencia cruza bajo ellos.
+- **Dedos de GND** del conector de borde y de SLOT7 unidos al plano con vías propias.
+
 ## Componentes principales
 
 | Función | Componente |
@@ -153,7 +210,7 @@ PCIe808_SW/
 ├── symbols/                 Footprints y padstacks propios (.dra .psm .pad)
 ├── docs/
 │   ├── webench/             Diseño de los convertidores buck
-│   └── img/                 Imágenes del README
+│   └── img/                 Imágenes del README (layout, stack-up, PDN, PCIe, 3D)
 └── outputs/                 Entregables: PDF, BOM, Gerbers y reportes (DRC, import)
 ```
 
@@ -168,6 +225,8 @@ PCIe808_SW/
 
 ## Estado del proyecto
 
+**Entrega 1: esquemático, potencia y alta velocidad ✅**
+
 - [x] Esquemático base del switch, los puertos y el reloj
 - [x] Diseño de los tres convertidores *buck* (WEBENCH, símbolos y *footprints*)
 - [x] Integración de la etapa de potencia en el esquemático
@@ -175,9 +234,32 @@ PCIe808_SW/
 - [x] Netlist del esquemático importado a la PCB
 - [x] Librería de *footprints* completa
 - [x] *Placement* de componentes
-- [ ] Ruteo de alta velocidad y potencia
-- [ ] Ruteo del sistema de control
-- [ ] Archivos de fabricación (Gerbers, taladros, BOM)
+- [x] Ruteo de alta velocidad: 8 *lanes* PCIe y relojes de referencia
+- [x] Ruteo de los tres convertidores *buck* y de los LDO
+- [x] Distribución de 12 V, 3.3 V, 5 V, 1.8 V, 0.95 V y 3.3VAUX
+- [x] Secuencia de encendido y conexión a GND de todos los pads SMD
+- [x] DRC de Allegro en 0 errores
+
+**Entrega 2: control y fabricación**
+
+- [ ] Hojas de control: configuración de modo, SPI Flash, I²C, Hot-Plug, PERST#, LEDs y GPIO
+- [ ] Ruteo de baja velocidad
+- [ ] Serigrafía y designadores
+- [ ] Archivos de fabricación
+
+## Entregables de fabricación
+
+Se publican en [`outputs/`](outputs/) al cerrar la Entrega 2:
+
+| Entregable | Formato | Estado |
+|---|---|---|
+| Gerbers (6 capas, máscaras, serigrafía y contorno) | RS-274X | Pendiente |
+| Taladros | Excellon / NC Drill | Pendiente |
+| Esquemático completo | PDF | Pendiente |
+| Lista de materiales (BOM) | CSV / XLSX | Pendiente |
+| Modelo 3D de la placa | STEP | Pendiente |
+| Vistas 3D (superior, inferior e isométrica) | PNG | Pendiente |
+| Planos de ensamble y notas de fabricación | PDF | Pendiente |
 
 ## Aviso
 
