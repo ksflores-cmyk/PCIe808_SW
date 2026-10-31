@@ -122,7 +122,7 @@ El esquemático tiene **15 hojas tamaño C**, cada una con cajetín (título, n�
 
 ![Diagrama de bloques y árbol de potencia](docs/img/esq_bloques.png)
 
-Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones (entrada, *bootstrap*, inductor, divisor de realimentación y arranque suave), no solo con etiquetas. Las señales que pasan de una hoja a otra (PG_3V3 y U2_PGOOD) usan conectores *off-page*.
+Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones (entrada, *bootstrap*, inductor, divisor de realimentación y arranque suave), no solo con etiquetas. Cada hoja incluye un cuadro de **notas de diseño** con el cálculo de Vout, la frecuencia, el límite de corriente, el arranque suave y la secuencia de encendido. Las señales que pasan de una hoja a otra (PG_3V3 y U2_PGOOD) usan conectores *off-page* con referencia a la hoja destino. El índice incluye el historial de revisiones.
 
 <table>
   <tr>
@@ -136,6 +136,18 @@ Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones 
 </table>
 
 **Configuración del switch por *straps*** (hoja 14): PORTCFG[2:0] = 100b (P0 x4 + P4–P7 x1), I2C_ADDR[2:0] = 000, *Hot-Plug*, L1.1 y modo *debug* deshabilitados, y RESREF de 200 Ω 1 % a GND.
+
+### Verificación del esquemático (DRC)
+
+El DRC de Capture se corre con todas las reglas eléctricas activas (incluidas las de conectores *off-page*) y con la matriz ERC configurada para marcar como *warning* cualquier pin sin conectar, de cualquier tipo. El reporte completo está en [`outputs/reportes/esquematico_DRC.txt`](outputs/reportes/esquematico_DRC.txt).
+
+| Resultado | Cantidad | Explicación |
+|---|---|---|
+| Errores | **0** | — |
+| Pines sin conectar | **0** | Todo pin libre está marcado como *No Connect* (por ejemplo, los carriles 1–3 de SLOT4, que es un puerto x1). |
+| Pines de potencia con nombre propio | 92 | Avisos informativos: los pines de tipo *Power* (VSS, VDDC, +12V, OUT, etc.) llevan su propio nombre de red además de la red a la que están cableados. Es el comportamiento normal de esos símbolos. |
+| Redes de control abiertas | 45 | PERST#, PRSNT#/PDC, SMBus, EEPROM, PORTGOOD y GPIO hacia J11: se cierran con las hojas de control. |
+| Red sin fuente que la maneje | 6 | PERp/n de los slots 4–6: la red va del capacitor de acople AC (pasivo) a la entrada del slot, así que Capture no ve una salida. Es correcto en PCIe. |
 
 ## Etapa de potencia
 
@@ -195,8 +207,10 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cua
 | Parámetro | Valor |
 |---|---|
 | Capas | 6: TOP · GND02 · ART03 · ART04 · PWR05 · BOTTOM |
-| Espesor | ≈ 62 mil (1.6 mm) |
+| Material | FR408 (εr 3.67), estructura recomendada por Diodes para alta velocidad |
+| Espesor | ≈ 62 mil (1.57 mm) |
 | Pares PCIe | 85 Ω diferencial, referenciados a un plano de GND continuo |
+| Relojes REFCLK | 100 Ω diferencial (≈ 99 Ω calculado) |
 | Vía estándar | VIA10_20 (taladro de 10 mil, pad de 20 mil) |
 | Separación mínima | 6 mil línea–línea · 7 mil a zonas de cobre |
 
