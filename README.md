@@ -226,22 +226,33 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cua
 
 ### Reglas eléctricas (Constraint Manager)
 
-Los 31 pares diferenciales tienen asignado un ECSet según su función. Los anchos y separaciones por capa vienen de los *physical csets* `DIFF_85OHM` y `DIFF_100OHM`, ahora con tolerancia de acople de ±1 mil.
+Los 31 pares diferenciales tienen asignado un ECSet según su función. Los anchos y separaciones por capa vienen de los *physical csets* `DIFF_85OHM` y `DIFF_100OHM`.
 
 | Regla | PCIE_GEN3_DATA (42 redes) | PCIE_REFCLK (20 redes) |
 |---|---|---|
 | Tolerancia de fase (intra-par) | 5 mil | 5 mil |
-| Longitud máxima desacoplada | 250 mil | 250 mil |
+| Longitud máxima desacoplada | 250 mil | 600 mil |
 | Vías máximas por red | 2 | 2 |
 | Longitud total | ≤ 10 000 mil | ≤ 10 000 mil |
+| Salida de pines (*gather*) | excluida | excluida |
+| Tolerancia de acople | +8 / −1.6 mil | +8 / −1.6 mil |
 
-Con estas reglas activas, el DRC no marca errores de fase, de vías ni de longitud. Sí marca **58 tramos desacoplados de más de 250 mil** (`outputs/reportes/pcb_DRC_electrico.txt`), en la salida del BGA y en la entrada a los capacitores AC y a los conectores. Se corrigen en el bloque de ruteo final.
+- La tolerancia de +8 mil corresponde a la altura de los *bumps* de ajuste de fase, y la de −1.6 mil al *neck* de 4 mil dentro del BGA. Así, la regla de tramo desacoplado mide las separaciones reales del par.
+- Para REFCLK (HCSL de 100 MHz, flancos de ≥ 150 ps, longitud crítica ≈ 0.9 in) se aceptan hasta 600 mil desacoplados. Los datos Gen 3 (flancos de ≈ 30 ps) se mantienen en 250 mil.
+
+Al activar las reglas aparecieron 58 tramos desacoplados. Se corrigieron así:
+
+- **TX upstream (capacitor AC → dedo dorado)**: las pistas iban separadas al paso del conector en todo el tramo (320 mil). Ahora corren acopladas y solo se abren al llegar al pad.
+- **TX de los slots 4–6 (capacitor AC → slot)**: corrían en paralelo a 39 mil. Ahora van acopladas hasta el pin escalonado del slot. Se conservó el escalonado de capacitores y vías, que compensa el *skew* del BGA, y se agregaron dos *bumps* en N para igualar la fase.
+- **REFCLK del slot 7**: la entrada al conector va acoplada, y se agregaron *bumps* en P para recuperar la fase.
+
+Resultado: **0 errores de DRC** (`outputs/reportes/pcb_DRC_electrico.txt`). Las 68 conexiones pendientes son las redes de control del Bloque C.
 
 ### Footprints propios de los convertidores
 
 ![Footprints propios de los buck](docs/img/footprints_buck.png)
 
-Los *footprints* de Ultra Librarian traían la máscara de soldadura en 1×1 mil, lo que deja los pads tapados. Por eso se crearon *footprints* propios basados en el *land pattern* recomendado por TI. Cada uno tiene *padstacks* nuevos con apertura de máscara de +0.05 mm por lado, pasta reducida en los pads térmicos, contorno de ensamble, *place bound* y marca de pin 1. Están en `symbols/`: `ti_rzr0016a_kf`, `ti_rpg0014a_kf` y `ti_drl0008a_kf`.
+Los *footprints* de Ultra Librarian traían la máscara de soldadura en 1×1 mil, lo que deja los pads tapados. Por eso se reemplazaron por *footprints* propios basados en el *land pattern* recomendado por TI. Cada uno tiene *padstacks* nuevos con apertura de máscara de +0.05 mm por lado, pasta reducida en los pads térmicos, contorno de ensamble, *place bound* y marca de pin 1. Están en `symbols/`: `ti_rzr0016a_kf`, `ti_rpg0014a_kf` y `ti_drl0008a_kf`.
 
 ## Componentes principales
 
