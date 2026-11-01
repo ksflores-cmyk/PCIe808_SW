@@ -211,7 +211,7 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cua
 | Espesor | ≈ 62 mil (1.57 mm) |
 | Pares PCIe | 85 Ω diferencial, referenciados a un plano de GND continuo |
 | Relojes REFCLK | 100 Ω diferencial (≈ 99 Ω calculado) |
-| Vía estándar | VIA10_20 (taladro de 10 mil, pad de 20 mil) |
+| Vía estándar | VIA_0R25D0R50 propia (taladro 0.25 mm, pad 0.50 mm en todas las capas, antipad 0.76 mm, *tented*) |
 | Separación mínima | 6 mil línea–línea · 7 mil a zonas de cobre |
 
 ### Ruteo de alta velocidad
@@ -223,6 +223,25 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cua
 - **Igualación de longitudes** dentro de cada par mediante serpentines (tolerancia de ±0.3 mil) y separación de 20–25 mil entre pares distintos.
 - **Retorno de corriente**: los pares en TOP y ART03 se referencian a GND02, y los de ART04 y BOTTOM a PWR05. Ninguna zona de potencia cruza bajo ellos.
 - **Dedos de GND** del conector de borde y de SLOT7 unidos al plano con vías propias.
+
+### Reglas eléctricas (Constraint Manager)
+
+Los 31 pares diferenciales tienen asignado un ECSet según su función. Los anchos y separaciones por capa vienen de los *physical csets* `DIFF_85OHM` y `DIFF_100OHM`, ahora con tolerancia de acople de ±1 mil.
+
+| Regla | PCIE_GEN3_DATA (42 redes) | PCIE_REFCLK (20 redes) |
+|---|---|---|
+| Tolerancia de fase (intra-par) | 5 mil | 5 mil |
+| Longitud máxima desacoplada | 250 mil | 250 mil |
+| Vías máximas por red | 2 | 2 |
+| Longitud total | ≤ 10 000 mil | ≤ 10 000 mil |
+
+Con estas reglas activas, el DRC no marca errores de fase, de vías ni de longitud. Sí marca **58 tramos desacoplados de más de 250 mil** (`outputs/reportes/pcb_DRC_electrico.txt`), en la salida del BGA y en la entrada a los capacitores AC y a los conectores. Se corrigen en el bloque de ruteo final.
+
+### Footprints propios de los convertidores
+
+![Footprints propios de los buck](docs/img/footprints_buck.png)
+
+Los *footprints* de Ultra Librarian traían la máscara de soldadura en 1×1 mil, lo que deja los pads tapados. Por eso se crearon *footprints* propios basados en el *land pattern* recomendado por TI. Cada uno tiene *padstacks* nuevos con apertura de máscara de +0.05 mm por lado, pasta reducida en los pads térmicos, contorno de ensamble, *place bound* y marca de pin 1. Están en `symbols/`: `ti_rzr0016a_kf`, `ti_rpg0014a_kf` y `ti_drl0008a_kf`.
 
 ## Componentes principales
 

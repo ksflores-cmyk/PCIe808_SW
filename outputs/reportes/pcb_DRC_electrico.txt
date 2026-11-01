@@ -1,0 +1,71 @@
+DRC Error Report
+P:/allegro/zz_ecs4.brd
+Sun Nov  1 14:40:18 2026
+DRC state: Up to date
+
+DRC Error Count Summary
+DRC Error Type,DRC Error Count
+Electrical Constraint,58
+Total DRC Errors,58
+
+Detailed DRC Errors
+Constraint Name,DRC Marker Location,DRC Subclass,Required Value,Actual Value,Constraint Source,Constraint Source Type,Element 1,Element 2
+Differential Pair Max Uncoupled Length,(1907.296 8646.666),ALL,250 MIL,821.512 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl7.Slot7.A14:Refclkn_Sl7.R543.2",Pin_Pair "Refclkp_Sl7.Slot7.A13:Refclkp_Sl7.R542.2"
+Differential Pair Max Uncoupled Length,(1946.666 8646.666),ALL,250 MIL,746.821 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl7.Slot7.A14:Refclkn_Sl7.R543.2",Pin_Pair "Refclkp_Sl7.Slot7.A13:Refclkp_Sl7.R542.2"
+Differential Pair Max Uncoupled Length,(2025.406 8646.666),ALL,250 MIL,504.573 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern7_Recept.Slot7.A17:Pern7_Recept.U6.P10",Pin_Pair "Perp7_Recept.Slot7.A16:Perp7_Recept.U6.N10"
+Differential Pair Max Uncoupled Length,(2064.776 8646.666),ALL,250 MIL,482.37 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern7_Recept.Slot7.A17:Pern7_Recept.U6.P10",Pin_Pair "Perp7_Recept.Slot7.A16:Perp7_Recept.U6.N10"
+Differential Pair Max Uncoupled Length,(2185.441 1912.071),ALL,250 MIL,348.674 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn0_Recept.U6.D10:Petn0_Recept.C637.1",Pin_Pair "Petp0_Recept.U6.E10:Petp0_Recept.C636.1"
+Differential Pair Max Uncoupled Length,(2185.441 1951.441),ALL,250 MIL,365.646 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn0_Recept.U6.D10:Petn0_Recept.C637.1",Pin_Pair "Petp0_Recept.U6.E10:Petp0_Recept.C636.1"
+Differential Pair Max Uncoupled Length,(2185.441 2148.291),ALL,250 MIL,367.628 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn7_Recept.U6.L10:Petn7_Recept.C645.2",Pin_Pair "Petp7_Recept.U6.K10:Petp7_Recept.C644.2"
+Differential Pair Max Uncoupled Length,(2185.441 2187.661),ALL,250 MIL,350.658 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn7_Recept.U6.L10:Petn7_Recept.C645.2",Pin_Pair "Petp7_Recept.U6.K10:Petp7_Recept.C644.2"
+Differential Pair Max Uncoupled Length,(2198.386 6374.075),ALL,250 MIL,673.443 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl4.Slot4.A14:Refclkn_Sl4.R549.2",Pin_Pair "Refclkp_Sl4.Slot4.A13:Refclkp_Sl4.R548.2"
+Differential Pair Max Uncoupled Length,(2198.386 7174.075),ALL,250 MIL,993.425 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl5.Slot5.A14:Refclkn_Sl5.R547.2",Pin_Pair "Refclkp_Sl5.Slot5.A13:Refclkp_Sl5.R546.2"
+Differential Pair Max Uncoupled Length,(2224.811 1912.071),ALL,250 MIL,348.674 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn1_Recept.U6.D9:Petn1_Recept.C639.1",Pin_Pair "Petp1_Recept.U6.E9:Petp1_Recept.C638.1"
+Differential Pair Max Uncoupled Length,(2224.811 1951.441),ALL,250 MIL,365.645 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn1_Recept.U6.D9:Petn1_Recept.C639.1",Pin_Pair "Petp1_Recept.U6.E9:Petp1_Recept.C638.1"
+Differential Pair Max Uncoupled Length,(2224.811 2148.291),ALL,250 MIL,716.045 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn6_Recept.U6.L9:Txn6_S6.C94.1",Pin_Pair "Petp6_Recept.U6.K9:Txp6_S6.C93.1"
+Differential Pair Max Uncoupled Length,(2224.811 2148.291),ALL,250 MIL,716.045 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn6_Recept.U6.L9:Petn6_Recept.C94.2",Pin_Pair "Petp6_Recept.U6.K9:Petp6_Recept.C93.2"
+Differential Pair Max Uncoupled Length,(2224.811 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn6_Recept.U6.L9:Petn6_Recept.C94.2",Pin_Pair "Petp6_Recept.U6.K9:Petp6_Recept.C93.2"
+Differential Pair Max Uncoupled Length,(2224.811 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn6_Recept.U6.L9:Txn6_S6.C94.1",Pin_Pair "Petp6_Recept.U6.K9:Txp6_S6.C93.1"
+Differential Pair Max Uncoupled Length,(2224.811 2266.401),ALL,250 MIL,472.012 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern6_Recept.U6.P9:Pern6_Recept.Slot6.A17",Pin_Pair "Perp6_Recept.U6.N9:Perp6_Recept.Slot6.A16"
+Differential Pair Max Uncoupled Length,(2224.811 2305.772),ALL,250 MIL,464.271 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern6_Recept.U6.P9:Pern6_Recept.Slot6.A17",Pin_Pair "Perp6_Recept.U6.N9:Perp6_Recept.Slot6.A16"
+Differential Pair Max Uncoupled Length,(2237.756 6452.827),ALL,250 MIL,669.065 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl4.Slot4.A14:Refclkn_Sl4.R549.2",Pin_Pair "Refclkp_Sl4.Slot4.A13:Refclkp_Sl4.R548.2"
+Differential Pair Max Uncoupled Length,(2237.756 7252.827),ALL,250 MIL,974.462 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkn_Sl5.Slot5.A14:Refclkn_Sl5.R547.2",Pin_Pair "Refclkp_Sl5.Slot5.A13:Refclkp_Sl5.R546.2"
+Differential Pair Max Uncoupled Length,(2303.551 1912.071),ALL,250 MIL,348.674 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn2_Recept.U6.D7:Petn2_Recept.C641.1",Pin_Pair "Petp2_Recept.U6.E7:Petp2_Recept.C640.1"
+Differential Pair Max Uncoupled Length,(2303.551 1951.441),ALL,250 MIL,365.645 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn2_Recept.U6.D7:Petn2_Recept.C641.1",Pin_Pair "Petp2_Recept.U6.E7:Petp2_Recept.C640.1"
+Differential Pair Max Uncoupled Length,(2303.551 2148.291),ALL,250 MIL,716.045 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn5_Recept.U6.L7:Txn5_S5.C81.1",Pin_Pair "Petp5_Recept.U6.K7:Txp5_S5.C80.1"
+Differential Pair Max Uncoupled Length,(2303.551 2148.291),ALL,250 MIL,716.045 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn5_Recept.U6.L7:Petn5_Recept.C81.2",Pin_Pair "Petp5_Recept.U6.K7:Petp5_Recept.C80.2"
+Differential Pair Max Uncoupled Length,(2303.551 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn5_Recept.U6.L7:Petn5_Recept.C81.2",Pin_Pair "Petp5_Recept.U6.K7:Petp5_Recept.C80.2"
+Differential Pair Max Uncoupled Length,(2303.551 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn5_Recept.U6.L7:Txn5_S5.C81.1",Pin_Pair "Petp5_Recept.U6.K7:Txp5_S5.C80.1"
+Differential Pair Max Uncoupled Length,(2303.551 2266.401),ALL,250 MIL,472.012 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern5_Recept.U6.P7:Pern5_Recept.Slot5.A17",Pin_Pair "Perp5_Recept.U6.N7:Perp5_Recept.Slot5.A16"
+Differential Pair Max Uncoupled Length,(2303.551 2305.772),ALL,250 MIL,464.271 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern5_Recept.U6.P7:Pern5_Recept.Slot5.A17",Pin_Pair "Perp5_Recept.U6.N7:Perp5_Recept.Slot5.A16"
+Differential Pair Max Uncoupled Length,(2342.921 1912.071),ALL,250 MIL,348.675 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn3_Recept.U6.D6:Petn3_Recept.C643.1",Pin_Pair "Petp3_Recept.U6.E6:Petp3_Recept.C642.1"
+Differential Pair Max Uncoupled Length,(2342.921 1951.441),ALL,250 MIL,365.645 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn3_Recept.U6.D6:Petn3_Recept.C643.1",Pin_Pair "Petp3_Recept.U6.E6:Petp3_Recept.C642.1"
+Differential Pair Max Uncoupled Length,(2342.921 2148.291),ALL,250 MIL,716.046 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn4_Recept.U6.L6:Txn4_S4.C79.1",Pin_Pair "Petp4_Recept.U6.K6:Txp4_S4.C78.1"
+Differential Pair Max Uncoupled Length,(2342.921 2148.291),ALL,250 MIL,716.046 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn4_Recept.U6.L6:Petn4_Recept.C79.2",Pin_Pair "Petp4_Recept.U6.K6:Petp4_Recept.C78.2"
+Differential Pair Max Uncoupled Length,(2342.921 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn4_Recept.U6.L6:Txn4_S4.C79.1",Pin_Pair "Petp4_Recept.U6.K6:Txp4_S4.C78.1"
+Differential Pair Max Uncoupled Length,(2342.921 2187.661),ALL,250 MIL,733.016 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn4_Recept.U6.L6:Petn4_Recept.C79.2",Pin_Pair "Petp4_Recept.U6.K6:Petp4_Recept.C78.2"
+Differential Pair Max Uncoupled Length,(2342.921 2266.401),ALL,250 MIL,472.012 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern4_Recept.U6.P6:Pern4_Recept.Slot4.A17",Pin_Pair "Perp4_Recept.U6.N6:Perp4_Recept.Slot4.A16"
+Differential Pair Max Uncoupled Length,(2342.921 2305.772),ALL,250 MIL,464.271 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern4_Recept.U6.P6:Pern4_Recept.Slot4.A17",Pin_Pair "Perp4_Recept.U6.N6:Perp4_Recept.Slot4.A16"
+Differential Pair Max Uncoupled Length,(2349.404 -39.365),ALL,250 MIL,410.815 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Crefclkn.P2.A14:Refclkin_R.U6.A3",Pin_Pair "Crefclkp.P2.A13:Refclkip_R.U6.A4"
+Differential Pair Max Uncoupled Length,(2388.774 -39.365),ALL,250 MIL,410.815 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Crefclkn.P2.A14:Refclkin_R.U6.A3",Pin_Pair "Crefclkp.P2.A13:Refclkip_R.U6.A4"
+Differential Pair Max Uncoupled Length,(2388.774 -39.365),ALL,250 MIL,436.578 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern0_Recept.P2.B15:Pern0_Recept.U6.A10",Pin_Pair "Perp0_Recept.P2.B14:Perp0_Recept.U6.B10"
+Differential Pair Max Uncoupled Length,(2428.144 -39.365),ALL,250 MIL,414.8 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern0_Recept.P2.B15:Pern0_Recept.U6.A10",Pin_Pair "Perp0_Recept.P2.B14:Perp0_Recept.U6.B10"
+Differential Pair Max Uncoupled Length,(2467.514 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn0_P0.C637.2:Petn0_P0.P2.A17",Pin_Pair "Petp0_P0.C636.2:Petp0_P0.P2.A16"
+Differential Pair Max Uncoupled Length,(2500.401 1793.960),ALL,250 MIL,567.144 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkon0.U6.A1:Refclkon_Phy0.U6.A8",Pin_Pair "Refclkop0.U6.A2:Refclkop_Phy0.U6.B8"
+Differential Pair Max Uncoupled Length,(2506.885 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn0_P0.C637.2:Petn0_P0.P2.A17",Pin_Pair "Petp0_P0.C636.2:Petp0_P0.P2.A16"
+Differential Pair Max Uncoupled Length,(2539.772 1793.960),ALL,250 MIL,567.145 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkon0.U6.A1:Refclkon_Phy0.U6.A8",Pin_Pair "Refclkop0.U6.A2:Refclkop_Phy0.U6.B8"
+Differential Pair Max Uncoupled Length,(2539.772 1912.071),ALL,250 MIL,759.564 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkon6.U6.E1:Refclkon6.R545.1",Pin_Pair "Refclkop6.U6.D1:Refclkop6.R544.1"
+Differential Pair Max Uncoupled Length,(2539.772 1951.441),ALL,250 MIL,759.469 MIL,PCIE_REFCLK,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Refclkon6.U6.E1:Refclkon6.R545.1",Pin_Pair "Refclkop6.U6.D1:Refclkop6.R544.1"
+Differential Pair Max Uncoupled Length,(2585.625 -39.365),ALL,250 MIL,436.578 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern1_Recept.P2.B20:Pern1_Recept.U6.A9",Pin_Pair "Perp1_Recept.P2.B19:Perp1_Recept.U6.B9"
+Differential Pair Max Uncoupled Length,(2624.995 -39.365),ALL,250 MIL,414.8 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern1_Recept.P2.B20:Pern1_Recept.U6.A9",Pin_Pair "Perp1_Recept.P2.B19:Perp1_Recept.U6.B9"
+Differential Pair Max Uncoupled Length,(2664.365 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn1_P0.C639.2:Petn1_P0.P2.A22",Pin_Pair "Petp1_P0.C638.2:Petp1_P0.P2.A21"
+Differential Pair Max Uncoupled Length,(2703.735 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn1_P0.C639.2:Petn1_P0.P2.A22",Pin_Pair "Petp1_P0.C638.2:Petp1_P0.P2.A21"
+Differential Pair Max Uncoupled Length,(2743.105 -39.365),ALL,250 MIL,436.578 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern2_Recept.P2.B24:Pern2_Recept.U6.A7",Pin_Pair "Perp2_Recept.P2.B23:Perp2_Recept.U6.B7"
+Differential Pair Max Uncoupled Length,(2782.475 -39.365),ALL,250 MIL,414.8 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern2_Recept.P2.B24:Pern2_Recept.U6.A7",Pin_Pair "Perp2_Recept.P2.B23:Perp2_Recept.U6.B7"
+Differential Pair Max Uncoupled Length,(2821.845 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn2_P0.C641.2:Petn2_P0.P2.A26",Pin_Pair "Petp2_P0.C640.2:Petp2_P0.P2.A25"
+Differential Pair Max Uncoupled Length,(2861.215 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn2_P0.C641.2:Petn2_P0.P2.A26",Pin_Pair "Petp2_P0.C640.2:Petp2_P0.P2.A25"
+Differential Pair Max Uncoupled Length,(2900.585 -39.365),ALL,250 MIL,436.578 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern3_Recept.P2.B28:Pern3_Recept.U6.A6",Pin_Pair "Perp3_Recept.P2.B27:Perp3_Recept.U6.B6"
+Differential Pair Max Uncoupled Length,(2939.955 -39.365),ALL,250 MIL,414.8 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Pern3_Recept.P2.B28:Pern3_Recept.U6.A6",Pin_Pair "Perp3_Recept.P2.B27:Perp3_Recept.U6.B6"
+Differential Pair Max Uncoupled Length,(2979.325 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn3_P0.C643.2:Petn3_P0.P2.A30",Pin_Pair "Petp3_P0.C642.2:Petp3_P0.P2.A29"
+Differential Pair Max Uncoupled Length,(3018.696 280.311),ALL,250 MIL,319.676 MIL,PCIE_GEN3_DATA,NET ELECTRICAL CONSTRAINTS,Pin_Pair "Petn3_P0.C643.2:Petn3_P0.P2.A30",Pin_Pair "Petp3_P0.C642.2:Petp3_P0.P2.A29"
+
