@@ -1,143 +1,33 @@
-Date and Time : 10/31/26 15:06:57
+Date and Time : 11/08/26 17:02:30
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
 --------------------------------------------------
 Checking Electrical Rules 
-WARNING(ORCAP-1608): Net has no driving source PERST_CHIP_L 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.90, 9.40) 
-WARNING(ORCAP-1608): Net has no driving source PERn6_RECEPT 
-                    SCHEMATIC1, 12_SLOTS_4-7  (18.20, 12.70) 
-WARNING(ORCAP-1608): Net has no driving source PERn4_RECEPT 
-                    SCHEMATIC1, 11_U6C_PARES_DIF  (10.60, 6.90) 
-WARNING(ORCAP-1608): Net has no driving source PERp4_RECEPT 
-                    SCHEMATIC1, 11_U6C_PARES_DIF  (10.60, 6.80) 
-WARNING(ORCAP-1608): Net has no driving source PERn5_RECEPT 
-                    SCHEMATIC1, 12_SLOTS_4-7  (14.90, 8.70) 
-WARNING(ORCAP-1608): Net has no driving source PERp5_RECEPT 
-                    SCHEMATIC1, 12_SLOTS_4-7  (14.90, 8.60) 
-WARNING(ORCAP-1608): Net has no driving source PERp6_RECEPT 
-                    SCHEMATIC1, 12_SLOTS_4-7  (18.20, 12.60) 
 
 Checking For Single Node Nets
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[1] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.10) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[0] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.00) 
-WARNING(ORCAP-1600): Net has fewer than two connections EEDI 
-                    SCHEMATIC1, 14_U6B_CONFIG  (6.70, 5.80) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[3] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.30) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[6] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.60) 
-WARNING(ORCAP-1600): Net has fewer than two connections WP# 
-                    SCHEMATIC1, 14_U6B_CONFIG  (1.15, 12.85) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[7] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.70) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[5] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.50) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[2] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.20) 
-WARNING(ORCAP-1600): Net has fewer than two connections PDC_L_7 
-                    SCHEMATIC1, 14_U6B_CONFIG  (11.00, 8.60) 
-WARNING(ORCAP-1600): Net has fewer than two connections PORTGOOD_L[4] 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.80, 4.40) 
-WARNING(ORCAP-1600): Net has fewer than two connections PERST_CHIP_L 
-                    SCHEMATIC1, 14_U6B_CONFIG  (10.90, 9.40) 
-WARNING(ORCAP-1600): Net has fewer than two connections FATAL_ERR_L 
-                    SCHEMATIC1, 14_U6B_CONFIG  (12.50, 7.10) 
-WARNING(ORCAP-1600): Net has fewer than two connections PERST#_SL7 
-                    SCHEMATIC1, 12_SLOTS_4-7  (9.20, 3.90) 
-WARNING(ORCAP-1600): Net has fewer than two connections PERST#_SL4 
-                    SCHEMATIC1, 12_SLOTS_4-7  (19.00, 2.80) 
-WARNING(ORCAP-1600): Net has fewer than two connections PERST#_SL6 
-                    SCHEMATIC1, 12_SLOTS_4-7  (18.60, 12.00) 
-WARNING(ORCAP-1600): Net has fewer than two connections HP_RST_7_L 
-                    SCHEMATIC1, 12_SLOTS_4-7  (9.20, 5.00) 
-WARNING(ORCAP-1600): Net has fewer than two connections PERST#_SL5 
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.30, 8.00) 
-WARNING(ORCAP-1600): Net has fewer than two connections SDA_I2C_CN 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (5.30, 6.10) 
-WARNING(ORCAP-1600): Net has fewer than two connections SCL_I2C_CN 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (5.30, 6.00) 
-WARNING(ORCAP-1600): Net has fewer than two connections CPERST_L 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (12.00, 6.60) 
 
 Checking For Unconnected Bus Nets
 
 Checking Off-Page Connections
-WARNING(ORCAP-1613): No matching off-page connector PERST#_SL4 
-                    SCHEMATIC1, 12_SLOTS_4-7  (19.00, 2.80) 
-WARNING(ORCAP-1613): No matching off-page connector PERST#_SL5 
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.30, 8.00) 
-WARNING(ORCAP-1613): No matching off-page connector SHDA_I2C 
-                    SCHEMATIC1, 14_U6B_CONFIG  (11.00, 5.80) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_30 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 9.00) 
-WARNING(ORCAP-1613): No matching off-page connector PERST#_SL6 
-                    SCHEMATIC1, 12_SLOTS_4-7  (18.60, 12.00) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_31 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 9.10) 
-WARNING(ORCAP-1613): No matching off-page connector PERST#_SL7 
-                    SCHEMATIC1, 12_SLOTS_4-7  (9.20, 3.90) 
-WARNING(ORCAP-1613): No matching off-page connector PDC_L_1 
-                    SCHEMATIC1, 14_U6B_CONFIG  (13.60, 8.00) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_12 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 6.10) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_23 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 7.40) 
-WARNING(ORCAP-1613): No matching off-page connector PDC_L_2 
-                    SCHEMATIC1, 14_U6B_CONFIG  (13.60, 8.10) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_7 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 5.40) 
-WARNING(ORCAP-1613): No matching off-page connector PDC_L_3 
-                    SCHEMATIC1, 14_U6B_CONFIG  (13.60, 8.20) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_8 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 5.70) 
-WARNING(ORCAP-1613): No matching off-page connector SDA_I2C_CN 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (4.70, 6.10) 
-WARNING(ORCAP-1613): No matching off-page connector PRSNT#_SL4 
-                    SCHEMATIC1, 12_SLOTS_4-7  (13.30, 3.50) 
-WARNING(ORCAP-1613): No matching off-page connector GPIO_26 
-                    SCHEMATIC1, 15_U6E_GPIO  (9.40, 8.20) 
-WARNING(ORCAP-1613): No matching off-page connector SCL_I2C_CN 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (4.60, 6.00) 
-WARNING(ORCAP-1613): No matching off-page connector HP_RST_7_L 
-                    SCHEMATIC1, 12_SLOTS_4-7  (9.20, 5.00) 
-WARNING(ORCAP-1613): No matching off-page connector PDC_L_7 
-                    SCHEMATIC1, 14_U6B_CONFIG  (11.00, 8.60) 
-WARNING(ORCAP-1613): No matching off-page connector PRSNT#_SL7 
-                    SCHEMATIC1, 12_SLOTS_4-7  (1.60, 5.10) 
-WARNING(ORCAP-1613): No matching off-page connector SHCL_I2C 
-                    SCHEMATIC1, 14_U6B_CONFIG  (11.00, 5.70) 
-WARNING(ORCAP-1613): No matching off-page connector CPERST_L 
-                    SCHEMATIC1, 10_UPSTREAM_P0  (12.00, 6.60) 
 
 Checking Pin to Port Connections
 
 Reporting Off-Grid Objects
     R108  -  14_U6B_CONFIG (1.45, 12.25)
     R107  -  14_U6B_CONFIG (1.25, 12.25)
-    R113  -  14_U6B_CONFIG (1.05, 12.25)
     R116  -  14_U6B_CONFIG (1.45, 13.05)
     PWR2  -  04_ENTRADA_POTENCIA (5.03, 3.00)
     1.8V_EXT  -  14_U6B_CONFIG (1.45, 11.85)
-    GND  -  14_U6B_CONFIG (1.95, 13.05)
     GND  -  14_U6B_CONFIG (1.45, 13.45)
     1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
     1.8V_EXT  -  14_U6B_CONFIG (1.55, 11.95)
-    1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.15, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.15, 12.15)
-    1.8V_EXT  -  14_U6B_CONFIG (1.15, 12.05)
     1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.15)
     1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.05)
     1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
     1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.05)
     1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.15)
     1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
-    WP#  -  14_U6B_CONFIG (1.15, 12.85)
-    WP#  -  14_U6B_CONFIG (1.15, 12.55)
     EEDO  -  14_U6B_CONFIG (1.35, 12.75)
     EEDO  -  14_U6B_CONFIG (1.35, 12.55)
     EECS_L  -  14_U6B_CONFIG (1.55, 12.65)
@@ -148,12 +38,6 @@ Reporting Off-Grid Objects
     EECS_L  -  14_U6B_CONFIG (1.55, 12.65)
     EEDO  -  14_U6B_CONFIG (2.15, 12.75)
     EEDO  -  14_U6B_CONFIG (1.35, 12.75)
-    WP#  -  14_U6B_CONFIG (2.15, 12.85)
-    WP#  -  14_U6B_CONFIG (1.15, 12.85)
-    GND  -  14_U6B_CONFIG (2.15, 12.95)
-    GND  -  14_U6B_CONFIG (2.05, 12.95)
-    GND  -  14_U6B_CONFIG (2.05, 13.05)
-    GND  -  14_U6B_CONFIG (2.05, 12.95)
     GND  -  14_U6B_CONFIG (1.55, 13.45)
     GND  -  14_U6B_CONFIG (1.55, 13.35)
     GND  -  07_BUCK_0V95_VP (9.55, 6.50)
@@ -190,79 +74,60 @@ Reporting Off-Grid Objects
 Reporting Ports
 
 Reporting Off-Page Connections
-    PERp1_RECEPT
     PETn1_RECEPT
+    PERp1_RECEPT
     PETp5_RECEPT
     PERn0_RECEPT
     PETn4_RECEPT
     PERp4_RECEPT
+    PERST_SLOT_L
     PERn3_RECEPT
     PERp7_RECEPT
     PETn7_RECEPT
-    PERST#_SL4
     PERn6_RECEPT
-    PERST#_SL5
-    SHDA_I2C
-    GPIO_30
     PETp0_RECEPT
-    PERST#_SL6
     REFCLKIN_R
-    GPIO_31
     PETp3_RECEPT
-    PERST#_SL7
-    U2_PGOOD
-    PETn2_RECEPT
     PERp2_RECEPT
+    PETn2_RECEPT
     PETp6_RECEPT
     REFCLKIP_R
+    U2_PGOOD
     PERn1_RECEPT
     PERp5_RECEPT
     PETn5_RECEPT
-    PDC_L_1
-    GPIO_12
-    GPIO_23
     PERn4_RECEPT
     REFCLKN_SL4
-    PDC_L_2
-    GPIO_7
     PERn7_RECEPT
     REFCLKN_SL5
-    PDC_L_3
-    GPIO_8
-    SDA_I2C_CN
     PETp1_RECEPT
-    REFCLKP_SL4
     REFCLKN_SL6
-    PRSNT#_SL4
-    GPIO_26
-    PERp0_RECEPT
+    REFCLKP_SL4
+    PDC_L_4
     PETn0_RECEPT
+    PERp0_RECEPT
     PETp4_RECEPT
-    REFCLKP_SL5
     REFCLKN_SL7
+    REFCLKP_SL5
     PDC_L_5
-    SCL_I2C_CN
     PERp3_RECEPT
     PETn3_RECEPT
     PETp7_RECEPT
     REFCLKP_SL6
     PDC_L_6
     PERn2_RECEPT
-    HP_RST_7_L
-    PERp6_RECEPT
     PETn6_RECEPT
+    PERp6_RECEPT
     REFCLKP_SL7
     PDC_L_7
     PG_3V3
     PERn5_RECEPT
-    PRSNT#_SL7
-    SHCL_I2C
-    CPERST_L
     PETp2_RECEPT
+    CPERST_L
 
 Reporting Globals
-    0.95V_VP
     0.95V_CVDDC
+    0.95V_VP
     1.8VPH
     1.8C_VDDR
     0.95VP
@@ -355,6 +220,16 @@ WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ens
                     SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.70) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U6,VDDR4  VDDR4  1.8VDDR
                     SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.80) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U54,OUT  OUT  1.8V_EXT
+                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 8.90) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U53,OUT  OUT  0.95V_CVDDC
+                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 3.30) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
+                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.20) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
+                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
+                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.80) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U6,VSS1  VSS1  GND
                     SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 5.90) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U6,VSS2  VSS2  GND
@@ -441,64 +316,6 @@ WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ens
                     SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 10.00) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U6,VSS43  VSS43  GND
                     SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 10.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U54,OUT  OUT  1.8V_EXT
-                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 8.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U53,OUT  OUT  0.95V_CVDDC
-                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 3.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.10, 2.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.40, 2.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.10, 2.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (12.20, 7.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (13.90, 7.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (13.90, 7.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.50, 11.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.20, 11.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+3.3V  +3.3V  3.3V_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.20, 11.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (12.20, 7.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (13.90, 7.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (12.20, 7.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (12.20, 7.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT5,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (13.90, 7.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.20, 11.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.20, 11.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.50, 11.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.50, 11.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT6,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.50, 11.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.40, 1.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.10, 1.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (17.10, 2.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.40, 1.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. SLOT4,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 12_SLOTS_4-7  (15.40, 2.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR2,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.20) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference

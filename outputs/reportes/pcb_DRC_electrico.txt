@@ -1,12 +1,27 @@
-DRC Error Report
-P:/allegro/zz_final.brd
-Sun Nov  1 15:37:18 2026
-DRC state: Up to date
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRC Update                                                       )
+(                                                                     )
+(    Drawing          : PI7_KEVINFLORES.brd                           )
+(    Software Version : 25.1S040                                      )
+(    Date/Time        : Sun Nov  8 17:11:10 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
 
-DRC Error Count Summary
-DRC Error Type,DRC Error Count
-Total DRC Errors,0
 
-Detailed DRC Errors
-Constraint Name,DRC Marker Location,DRC Subclass,Required Value,Actual Value,Constraint Source,Constraint Source Type,Element 1,Element 2
+ ========= check shapes                       0:00:00
+ ========= check standalone pins              0:00:00
+ ========= check symbols (pins,lines,text)    0:00:00
+ ========= check xnets                        0:00:00
+ ========= check nets                         0:00:00
+ ========= check standalone branches          0:00:00
+ ========= check standalone filled rectangles 0:00:00
+ ========= check standalone lines             0:00:00
+ ========= check standalone text              0:00:00
+ ========= check standalone rectangles        0:00:00
+
+ ..... Total number of DRC errors  0
+
+ ..... DRC update completed, total CPU time   0:00:02
+ *************************************************************************
 

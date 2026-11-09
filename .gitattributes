@@ -18,3 +18,10 @@
 # Script auxiliar: no contar en las estadisticas de lenguaje de GitHub
 *.cmd linguist-detectable=false
 *.bat linguist-detectable=false
+# Gerbers y taladros de fabricacion (.G1 a .G4, .GTL, .GBL...): no son codigo.
+# Sin esto GitHub detecta los .G1-.G4 como lenguaje ANTLR.
+fabricacion/** linguist-vendored
+fabricacion/** -diff
+# Documentacion: fuera de las estadisticas de lenguaje
+docs/** linguist-documentation
+outputs/** linguist-documentation

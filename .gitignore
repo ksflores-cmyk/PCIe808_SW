@@ -15,8 +15,33 @@
 *autosave*
 master.tag
 signoise.run/
-# ===== Scripts locales de configuracion =====
+# ===== Scripts locales de configuracion y archivos de trabajo =====
 _setup/
+bak_*/
+*.bak
+*.brd.orig
+*_forget.do
+*_rules.do
+/PI7_KEVINFLORES.csv
+# ===== Archivos intermedios de generacion de Gerbers y taladros en allegro/ =====
+# (los entregables de fabricacion estan en fabricacion/JLCPCB/)
+allegro/*.art
+allegro/*.art,*
+allegro/*.drl
+allegro/*.drl,*
+allegro/art_param.txt*
+allegro/nc_*
+allegro/dangling_lines.rpt*
+allegro/PI7_KEVINFLORES.dsn
+allegro/specctra.*
+allegro/view.art
+allegro/copy_of_*
+# ===== Archivos de trabajo de la BOM (el entregable es bom/BOM_*.csv y .xlsx) =====
+bom/bom_lineas_entrada.csv
+bom/gemini_bom_prompt.md
+bom/lines.json
+# ===== Footprints base de trabajo =====
+symbols/zz_*
 # ===== Material de referencia bajo NDA: NUNCA al repo =====
 PI7C9X3G808GP-Design-kit*/
 *.rar

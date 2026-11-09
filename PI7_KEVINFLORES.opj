@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S040 (4438746)  [5/24/2026]-[11/02/26]")
+  (SoftwareVersion "25.1 S040 (4438746)  [5/24/2026]-[11/08/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -130,11 +130,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\pi7_kevinflores.dsn")
-      (Path "Design Resources" ".\pi7_kevinflores.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "P:\pi7_kevinflores.dsn")
+      (Path "Design Resources" "P:\pi7_kevinflores.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\pi7_kevinflores.dsn"))
+      (Select "Design Resources" "P:\pi7_kevinflores.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -145,8 +145,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -165,7 +165,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "0 544")
+        (Scroll "0 534")
         (Zoom "74")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
@@ -175,8 +175,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -185,8 +185,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -195,7 +195,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-233 11")
+        (Scroll "-233 0")
         (Zoom "39")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
@@ -215,8 +215,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -225,7 +225,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-233 11")
+        (Scroll "-233 0")
         (Zoom "39")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
@@ -235,8 +235,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -245,8 +245,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -255,8 +255,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -265,8 +265,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "4224 3422")
+        (Zoom "330")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -285,8 +285,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "0 1686")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
