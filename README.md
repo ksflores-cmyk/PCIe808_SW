@@ -73,7 +73,7 @@ El diseño parte del esquemático de referencia de la tarjeta de evaluación del
 |---|---|
 | Switch | Diodes PI7C9X3G808GP: 8 puertos, 8 *lanes*, PCIe Gen 3 (8 GT/s) |
 | Upstream | 1 × PCIe x4, conector de borde |
-| Downstream | 4 × PCIe x1, conectores M.2 M-key 2280 (J4 a J7) |
+| Downstream | 4 × PCIe x1, conectores M.2 M-key 2280 (J1 a J4) |
 | Entrada de alimentación | 12 V (conector PCIe de 6 pines) y 5 V (Molex de 4 pines) |
 | Rieles generados | 3.3 V (15 A) · 0.95 V núcleo VDDC (4 A) · 0.95 V SerDes VP (1 A) · 1.8 V y 0.95 V C_VDDC con LDO |
 | Configuración del switch | Por *straps*, sin EEPROM |
@@ -102,9 +102,9 @@ flowchart LR
     PWR["Etapa de potencia<br/>12 V / 5 V → 3.3 / 0.95 / 0.95 V"] -.-> SW
     subgraph DS["Puertos downstream · M.2 NVMe"]
         S4["J4 · P4 · x1"]
-        S5["J5 · P5 · x1"]
-        S6["J6 · P6 · x1"]
-        S7["J7 · P7 · x1"]
+        S5["J3 · P5 · x1"]
+        S6["J2 · P6 · x1"]
+        S7["J1 · P7 · x1"]
     end
     SW <--> S4 & S5 & S6 & S7
 ```
@@ -187,14 +187,14 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cap
 
 | Riel | Fuente | Destino |
 |---|---|---|
-| 12VCC_EXT | PWR2 (PCIe de 6 pines) | Buck 1 |
-| 5VCC_EXT | P11 (Molex de 4 pines) | Buck 2 y Buck 3 |
-| 3.3V_EXT | Buck 1 · TPS54KB20 | Conectores M.2 (J4 a J7), LDO y lógica |
+| 12VCC_EXT | PWR1 (PCIe de 6 pines) | Buck 1 |
+| 5VCC_EXT | P1 (Molex de 4 pines) | Buck 2 y Buck 3 |
+| 3.3V_EXT | Buck 1 · TPS54KB20 | Conectores M.2 (J1 a J4), LDO y lógica |
 | 0.95V_VDDC / 0.95V_VP | Buck 2 y Buck 3 | Zonas bajo el BGA, a través de ferritas |
-| 1.8V_EXT / 0.95V_CVDDC | LDO AP7361C (U54 / U53) | Ferritas de alimentación analógica del switch |
+| 1.8V_EXT / 0.95V_CVDDC | LDO AP7361C (U6 / U3) | Ferritas de alimentación analógica del switch |
 | 3.3VAUX | Host, por el conector de borde | Lógica auxiliar del switch |
 
-- **Sensado del Buck 1** (R534) tomado en los capacitores de salida mediante una pista dedicada, para que la regulación no dependa de la corriente de carga.
+- **Sensado del Buck 1** (R5) tomado en los capacitores de salida mediante una pista dedicada, para que la regulación no dependa de la corriente de carga.
 - **Secuencia de encendido** ruteada: PG_3V3 (Buck 1 → EN del Buck 2) y U2_PGOOD (Buck 2 → EN del Buck 3 y LED Q1).
 
 ## Layout de la PCB
@@ -218,7 +218,7 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cap
 ![Ruteo PCIe](docs/img/ruteo_pcie.png)
 
 - **Upstream x4**: del conector de borde al switch, con los capacitores de acople AC (0402) junto a los dedos dorados.
-- **Downstream x1**: un par TX, un par RX y un reloj de referencia por conector M.2 (J4 a J7).
+- **Downstream x1**: un par TX, un par RX y un reloj de referencia por conector M.2 (J1 a J4).
 - **Igualación de longitudes** dentro de cada par mediante serpentines (tolerancia de ±0.3 mil) y separación de 20–25 mil entre pares distintos.
 - **Retorno de corriente**: los pares en TOP y ART03 se referencian a GND02, y los de ART04 y BOTTOM a PWR05. Ninguna zona de potencia cruza bajo ellos.
 - **Dedos de GND** del conector de borde unidos al plano con vías propias, y vías de costura GND junto a los cambios de capa de los pares.

@@ -15,7 +15,7 @@ RenT 576k 0603 ; RenB 100k 0402 (UVLO 9 V) ; Rilim 5.76k 0402 ; Rmsel 4.99k 0402
 Rfbt 26.7k 0402 ; Rfbb 10k 0402 ; Rpg 10k (0201 -> 0402)
 
 ## Implementacion en esquematico (pag. 03_PWR1)
-U55 TPS54KB20RZRR (fp RZR0016A-MFG) | L2 680nH (IND_XAL8080)
-Cout C610-C612 | Cin C613-C616 | Cinx C617,C618 (0402) C619,C620 (0603) | Cboot C621 | Cvcc C622 | Css C623
-RenT R530 | RenB R531 | Rilim R532 | Rmsel R533 | Rfbt R534 | Rfbb R535 | Rpg R536 -> red PG_3V3
+U1 TPS54KB20RZRR (fp RZR0016A-MFG) | L1 680nH (IND_XAL8080)
+Cout C610-C612 | Cin C613-C616 | Cinx C23,C20 (0402) C25,C24 (0603) | Cboot C26 | Cvcc C27 | Css C17
+RenT R4 | RenB R6 | Rilim R8 | Rmsel R9 | Rfbt R5 | Rfbb R7 | Rpg R10 -> red PG_3V3
 GOSNS a GND (sensado local); remote sense no usado. Pines de potencia del simbolo UL cambiados a Passive.

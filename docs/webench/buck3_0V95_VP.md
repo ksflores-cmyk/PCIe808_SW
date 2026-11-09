@@ -15,6 +15,6 @@ Cboot C0603X5R1A104K030BC 100nF 0201 (cambiar a 0402) ; Css GRM155R71C223KA01D 2
 Rfbt 1.87k 0603 ; Rfbb 10k 0402
 
 ## Implementacion en esquematico (pag. 03_PWR1)
-U57 TPS62933FDRLR (fp SOT5X3-8_DRL_TEX) | L4 1.5uH (IND_XAL7030)
-Cout C630 | Cin C631 | Cinx C632 | Cboot C633 (0402) | Css C634 | Cff C635 | Rfbt R540 | Rfbb R541
+U7 TPS62933FDRLR (fp SOT5X3-8_DRL_TEX) | L3 1.5uH (IND_XAL7030)
+Cout C46 | Cin C50 | Cinx C51 | Cboot C49 (0402) | Css C43 | Cff C55 | Rfbt R44 | Rfbb R43
 EN <- U2_PGOOD (PGOOD de Buck 2). RT sin conectar (No-Connect) = 500 kHz. LED de VP original (Q2/DS7/R29/R30) eliminado.
