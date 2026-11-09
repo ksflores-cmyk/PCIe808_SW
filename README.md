@@ -341,5 +341,5 @@ Este diseño es una versión académica personalizada, desarrollada a partir del
 
 ## Autor
 
-**Kevin Sebastián Flores López**: estudiante de Ingeniería Electrónica y Telecomunicaciones, Universidad del Istmo de Guatemala.
+**Kevin Sebastian Flores López**: estudiante de Ingeniería Electrónica y Telecomunicaciones, Universidad del Istmo de Guatemala.
 [github.com/ksflores-cmyk](https://github.com/ksflores-cmyk)
