@@ -4,7 +4,7 @@
   <em>Universidad del Istmo de Guatemala</em><br>
   <em>Facultad de Ingeniería</em><br>
   <em>Switch PCIe Gen 3 — PI7C9X3G808GP</em><br>
-  <em>Electrónica 2</em>
+  <em>Electrónica 2 y Diseño Electrónico 1</em>
 
   <br><br>
 
