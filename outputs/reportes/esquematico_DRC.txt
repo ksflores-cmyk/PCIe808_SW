@@ -1,4 +1,4 @@
-Date and Time : 11/09/26 00:36:03
+Date and Time : 11/09/26 06:00:25
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -14,48 +14,8 @@ Checking Off-Page Connections
 Checking Pin to Port Connections
 
 Reporting Off-Grid Objects
-    R24  -  14_U6B_CONFIG (1.45, 12.25)
-    R14  -  14_U6B_CONFIG (1.25, 12.25)
-    R27  -  14_U6B_CONFIG (1.45, 13.05)
+    U1  -  05_BUCK_3V3 (10.05, 5.00)
     PWR1  -  04_ENTRADA_POTENCIA (5.03, 3.00)
-    1.8V_EXT  -  14_U6B_CONFIG (1.45, 11.85)
-    GND  -  14_U6B_CONFIG (1.45, 13.45)
-    1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.55, 11.95)
-    1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.15)
-    1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.35, 12.05)
-    1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.15)
-    1.8V_EXT  -  14_U6B_CONFIG (1.55, 12.05)
-    EEDO  -  14_U6B_CONFIG (1.35, 12.75)
-    EEDO  -  14_U6B_CONFIG (1.35, 12.55)
-    EECS_L  -  14_U6B_CONFIG (1.55, 12.65)
-    EECS_L  -  14_U6B_CONFIG (1.55, 12.55)
-    EECS_L  -  14_U6B_CONFIG (2.15, 12.65)
-    EECS_L  -  14_U6B_CONFIG (1.55, 12.65)
-    EECS_L  -  14_U6B_CONFIG (1.55, 12.95)
-    EECS_L  -  14_U6B_CONFIG (1.55, 12.65)
-    EEDO  -  14_U6B_CONFIG (2.15, 12.75)
-    EEDO  -  14_U6B_CONFIG (1.35, 12.75)
-    GND  -  14_U6B_CONFIG (1.55, 13.45)
-    GND  -  14_U6B_CONFIG (1.55, 13.35)
-    12VCC_EXT  -  05_BUCK_3V3 (9.75, 5.20)
-    12VCC_EXT  -  05_BUCK_3V3 (9.75, 5.30)
-    B1_EN  -  05_BUCK_3V3 (9.75, 5.50)
-    B1_VCC  -  05_BUCK_3V3 (9.75, 5.70)
-    B1_SS  -  05_BUCK_3V3 (9.75, 6.30)
-    B1_ILIM  -  05_BUCK_3V3 (9.75, 6.50)
-    B1_MSEL  -  05_BUCK_3V3 (9.75, 6.70)
-    PG_3V3  -  05_BUCK_3V3 (9.75, 6.10)
-    B1_BST  -  05_BUCK_3V3 (11.45, 5.20)
-    B1_SW  -  05_BUCK_3V3 (11.45, 5.50)
-    B1_FB  -  05_BUCK_3V3 (11.45, 5.80)
-    GND  -  05_BUCK_3V3 (11.45, 6.10)
-    GND  -  05_BUCK_3V3 (11.45, 6.40)
-    GND  -  05_BUCK_3V3 (11.45, 6.50)
-    GND  -  05_BUCK_3V3 (11.45, 6.60)
-    GND  -  05_BUCK_3V3 (11.45, 6.70)
     GND  -  04_ENTRADA_POTENCIA (4.93, 3.20)
     GND  -  04_ENTRADA_POTENCIA (4.93, 3.50)
     GND  -  04_ENTRADA_POTENCIA (4.93, 3.80)
@@ -66,28 +26,28 @@ Reporting Off-Grid Objects
 Reporting Ports
 
 Reporting Off-Page Connections
-    PETn1_RECEPT
     PERp1_RECEPT
+    PETn1_RECEPT
     PETp5_RECEPT
     PERn0_RECEPT
     PETn4_RECEPT
     PERp4_RECEPT
     PERST_SLOT_L
     PERn3_RECEPT
-    PERp7_RECEPT
     PETn7_RECEPT
+    PERp7_RECEPT
     PERn6_RECEPT
     PETp0_RECEPT
     REFCLKIN_R
     PETp3_RECEPT
-    PERp2_RECEPT
     PETn2_RECEPT
+    PERp2_RECEPT
     PETp6_RECEPT
     REFCLKIP_R
     U2_PGOOD
     PERn1_RECEPT
-    PERp5_RECEPT
     PETn5_RECEPT
+    PERp5_RECEPT
     PERn4_RECEPT
     REFCLKN_SL4
     PERn7_RECEPT
@@ -99,11 +59,11 @@ Reporting Off-Page Connections
     PETn0_RECEPT
     PERp0_RECEPT
     PETp4_RECEPT
-    REFCLKN_SL7
     REFCLKP_SL5
+    REFCLKN_SL7
     PDC_L_5
-    PERp3_RECEPT
     PETn3_RECEPT
+    PERp3_RECEPT
     PETp7_RECEPT
     REFCLKP_SL6
     PDC_L_6
@@ -129,9 +89,9 @@ Reporting Globals
     1.8V_EXT
     GND
     0.95V_VDDC
-    0.95VDDC
     12VCC_EXT
     5VCC_EXT
+    0.95VDDC
     0.95C_VDDC
 
 Checking Misleading Tap connection
@@ -170,144 +130,6 @@ INFO(ORCAP-36101): Checking Missing PCB Footprint Property
 Checking Name Property for Hierarchical Instances  
 
 INFO(ORCAP-2211): Check High Speed Properties Syntax
-
-INFO(ORCAP-2212): Check Power Ground Mismatch
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC8  VDDC8  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 4.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC7  VDDC7  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 4.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC6  VDDC6  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 4.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC4  VDDC4  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 3.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC1  VDDC1  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 3.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC3  VDDC3  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 3.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC2  VDDC2  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 3.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDC5  VDDC5  0.95VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 4.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VP4  VP4  0.95VP
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 6.40) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VP3  VP3  0.95VP
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 6.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VP1  VP1  0.95VP
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 6.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VP2  VP2  0.95VP
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 6.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,C_VDDC  C_VDDC  0.95C_VDDC
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 5.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VPH2  VPH2  1.8VPH
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 10.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VPH1  VPH1  1.8VPH
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 10.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,C_VDDR  C_VDDR  1.8C_VDDR
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 8.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDR1  VDDR1  1.8VDDR
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDR3  VDDR3  1.8VDDR
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDR2  VDDR2  1.8VDDR
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDR4  VDDR4  1.8VDDR
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (4.90, 7.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U6,OUT  OUT  1.8V_EXT
-                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 8.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,OUT  OUT  0.95V_CVDDC
-                    SCHEMATIC1, 08_LDO_0V95C_1V8  (9.30, 3.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR1,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR1,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. PWR1,+12V  +12V  12VCC_EXT
-                    SCHEMATIC1, 04_ENTRADA_POTENCIA  (5.86, 3.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS2  VSS2  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS3  VSS3  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS1  VSS1  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 5.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS4  VSS4  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS5  VSS5  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS6  VSS6  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.40) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS8  VSS8  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS9  VSS9  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS7  VSS7  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS10  VSS10  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS12  VSS12  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS13  VSS13  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS11  VSS11  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 6.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS14  VSS14  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS19  VSS19  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS20  VSS20  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS17  VSS17  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS18  VSS18  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS15  VSS15  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS16  VSS16  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.40) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS21  VSS21  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 7.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS22  VSS22  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS23  VSS23  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS40  VSS40  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS41  VSS41  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS38  VSS38  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS39  VSS39  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS31  VSS31  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.90) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS32  VSS32  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS28  VSS28  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.60) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS29  VSS29  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.70) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS27  VSS27  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS30  VSS30  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.80) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS25  VSS25  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS26  VSS26  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.40) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS24  VSS24  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 8.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS33  VSS33  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS34  VSS34  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.20) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS35  VSS35  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.30) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS36  VSS36  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.40) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS37  VSS37  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 9.50) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS42  VSS42  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 10.00) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VSS43  VSS43  GND
-                    SCHEMATIC1, 09_U6A_ALIMENTACION  (6.90, 10.10) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference

@@ -60,8 +60,8 @@ El diseño parte del esquemático de referencia de la tarjeta de evaluación del
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="docs/img/pcb_vista_general.png" alt="Vista general del layout" width="100%"><br><sub>Layout completo, generado desde los Gerbers de fabricación: capas de señal superpuestas y pads en dorado.</sub></td>
-    <td align="center" width="50%"><img src="docs/img/capas_cobre.png" alt="Capas de cobre" width="100%"><br><sub>Capas de cobre por separado: TOP, GND02, ART03, ART04, PWR05 y BOTTOM.</sub></td>
+    <td align="center" width="50%"><img src="docs/img/pcb_vista_general.png" alt="Vista general del layout" width="100%"><br><sub>Layout completo, generado desde los Gerbers de fabricación: capas de señal superpuestas y pads en rojo.</sub></td>
+    <td align="center" width="50%"><img src="docs/img/capas_cobre.png" alt="Capas de cobre" width="100%"><br><sub>Capas de señal por separado: TOP, ART03, ART04 y BOTTOM (GND02 y PWR05 son planos).</sub></td>
   </tr>
 </table>
 
@@ -74,7 +74,7 @@ El diseño parte del esquemático de referencia de la tarjeta de evaluación del
 | Switch | Diodes PI7C9X3G808GP: 8 puertos, 8 *lanes*, PCIe Gen 3 (8 GT/s) |
 | Upstream | 1 × PCIe x4, conector de borde |
 | Downstream | 4 × PCIe x1, conectores M.2 M-key 2280 (J1 a J4) |
-| Entrada de alimentación | 12 V (conector PCIe de 6 pines) y 5 V (Molex de 4 pines) |
+| Entrada de alimentación | 12 V (conector PCIe de 6 pines o pin 1 del Molex) y 5 V (Molex de 4 pines) |
 | Rieles generados | 3.3 V (15 A) · 0.95 V núcleo VDDC (4 A) · 0.95 V SerDes VP (1 A) · 1.8 V y 0.95 V C_VDDC con LDO |
 | Configuración del switch | Por *straps*, sin EEPROM |
 | Reloj de referencia | 100 MHz, distribuido al switch y a los conectores M.2 |
@@ -111,22 +111,22 @@ flowchart LR
 
 ## Esquemático
 
-El esquemático tiene **15 hojas**, cada una con cajetín (título, número de hoja, revisión y autor). El PDF completo, con marcadores por hoja, está en [`outputs/PI7_KEVINFLORES_esquematico.pdf`](outputs/PI7_KEVINFLORES_esquematico.pdf).
+El esquemático tiene **15 hojas**, cada una con cajetín (título, número de hoja, fecha y revisión). El PDF completo, con marcadores por hoja, está en [`outputs/PI7_KEVINFLORES_esquematico.pdf`](outputs/PI7_KEVINFLORES_esquematico.pdf).
 
 | Hoja | Contenido | Hoja | Contenido |
 |---|---|---|---|
-| 01 | Portada | 09 | U6A: alimentación y desacople del switch |
+| 01 | Portada | 09 | U5A: alimentación y desacople del switch |
 | 02 | Índice de hojas | 10 | Upstream PCIe x4 (puerto 0) |
-| 03 | Diagrama de bloques y árbol de potencia | 11 | U6C: pares diferenciales PCIe |
+| 03 | Diagrama de bloques y árbol de potencia | 11 | U5C: pares diferenciales PCIe |
 | 04 | Entrada de potencia 12 V / 5 V | 12 | M.2 NVMe, puertos downstream 4 a 7 |
-| 05 | Buck 1: 12 V → 3.3 V | 13 | U6D: reloj de referencia |
-| 06 | Buck 2: 5 V → 0.95 V VDDC | 14 | U6B: configuración, *straps*, SMBus y JTAG |
-| 07 | Buck 3: 5 V → 0.95 V VP | 15 | U6E: GPIO y header J11 |
+| 05 | Buck 1: 12 V → 3.3 V | 13 | U5D: reloj de referencia |
+| 06 | Buck 2: 5 V → 0.95 V VDDC | 14 | U5B: configuración, *straps*, SMBus y JTAG |
+| 07 | Buck 3: 5 V → 0.95 V VP | 15 | U5E: GPIO |
 | 08 | LDO 0.95 V C_VDDC y 1.8 V | | |
 
 ![Diagrama de bloques y árbol de potencia](docs/img/esq_bloques.png)
 
-Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones (entrada, *bootstrap*, inductor, divisor de realimentación y arranque suave), no solo con etiquetas. Cada hoja incluye un cuadro de **notas de diseño** con el cálculo de Vout, la frecuencia, el límite de corriente, el arranque suave y la secuencia de encendido. Las señales que pasan de una hoja a otra (PG_3V3 y U2_PGOOD) usan conectores *off-page* con referencia a la hoja destino. El índice incluye el historial de revisiones.
+Cada convertidor ocupa su propia hoja y está dibujado con todas sus conexiones (entrada, *bootstrap*, inductor, divisor de realimentación y arranque suave), no solo con etiquetas. Cada hoja incluye un cuadro de **notas de diseño** con el cálculo de Vout, la frecuencia, el límite de corriente, el arranque suave y la secuencia de encendido. Las señales que pasan de una hoja a otra (pares PCIe, REFCLK, PERST#, PG_3V3, U2_PGOOD, etc.) usan conectores *off-page* con referencia cruzada a la hoja destino. El índice incluye el historial de revisiones.
 
 <table>
   <tr>
@@ -183,19 +183,19 @@ El detalle de cada diseño (requisitos, BOM y alternativas descartadas) está en
 
 ### Red de distribución de potencia (PDN)
 
-La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las capas de señal entre los Bucks y los conectores M.2. Por eso cada riel usa una capa distinta, y ninguno corta los planos GND02 y PWR05, que son la referencia de los pares PCIe.
+La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las capas de señal entre los Bucks y los conectores M.2. Por eso cada riel usa una capa distinta y el plano GND02, referencia de los pares de TOP y ART03, queda continuo bajo todos ellos.
 
 | Riel | Fuente | Destino |
 |---|---|---|
-| 12VCC_EXT | PWR1 (PCIe de 6 pines) | Buck 1 |
+| 12VCC_EXT | PWR1 (PCIe de 6 pines) y pin 1 de P1, en paralelo | Buck 1 |
 | 5VCC_EXT | P1 (Molex de 4 pines) | Buck 2 y Buck 3 |
 | 3.3V_EXT | Buck 1 · TPS54KB20 | Conectores M.2 (J1 a J4), LDO y lógica |
 | 0.95V_VDDC / 0.95V_VP | Buck 2 y Buck 3 | Zonas bajo el BGA, a través de ferritas |
 | 1.8V_EXT / 0.95V_CVDDC | LDO AP7361C (U6 / U3) | Ferritas de alimentación analógica del switch |
-| 3.3VAUX | Host, por el conector de borde | Lógica auxiliar del switch |
+| 3.3VAUX | Host, por el conector de borde | Solo desacople (C63 a C65); no alimenta otra lógica |
 
 - **Sensado del Buck 1** (R5) tomado en los capacitores de salida mediante una pista dedicada, para que la regulación no dependa de la corriente de carga.
-- **Secuencia de encendido** ruteada: PG_3V3 (Buck 1 → EN del Buck 2) y U2_PGOOD (Buck 2 → EN del Buck 3 y LED Q1).
+- **Secuencia de encendido** ruteada: PG_3V3 (Buck 1 → EN del Buck 2) y U2_PGOOD (Buck 2 → EN del Buck 3 y LED DS6 a través de Q1).
 
 ## Layout de la PCB
 
@@ -206,8 +206,8 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cap
 | Parámetro | Valor |
 |---|---|
 | Capas | 6: TOP · GND02 · ART03 · ART04 · PWR05 · BOTTOM |
-| Material | FR408 (εr 3.67), estructura recomendada por Diodes para alta velocidad |
-| Espesor | ≈ 62 mil (1.57 mm) |
+| Material | FR408 (εr 3.67) en el modelo de Allegro; para JLCPCB (FR-4) hay que recalcular los anchos con su stack-up de impedancia controlada (ver [Notas de fabricación](#notas-de-fabricación)) |
+| Espesor | ≈ 61 mil (1.55 mm) |
 | Pares PCIe | 85 Ω diferencial, referenciados a un plano de GND continuo |
 | Relojes REFCLK | 100 Ω diferencial (≈ 99 Ω calculado) |
 | Vía estándar | VIA_0R25D0R50 propia (taladro 0.25 mm, pad 0.50 mm en todas las capas, antipad 0.76 mm, *tented*) |
@@ -219,8 +219,8 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cap
 
 - **Upstream x4**: del conector de borde al switch, con los capacitores de acople AC (0402) junto a los dedos dorados.
 - **Downstream x1**: un par TX, un par RX y un reloj de referencia por conector M.2 (J1 a J4).
-- **Igualación de longitudes** dentro de cada par mediante serpentines (tolerancia de ±0.3 mil) y separación de 20–25 mil entre pares distintos.
-- **Retorno de corriente**: los pares en TOP y ART03 se referencian a GND02, y los de ART04 y BOTTOM a PWR05. Ninguna zona de potencia cruza bajo ellos.
+- **Igualación de longitudes** dentro de cada par mediante serpentines (tolerancia de fase de 5 mil en Constraint Manager) y separación de 20–25 mil entre pares distintos.
+- **Retorno de corriente**: los pares en TOP y ART03 se referencian a GND02, sin cortes bajo ellos. Los de ART04 y BOTTOM se referencian a PWR05; un par de ART04 y un reloj de BOTTOM pasan sobre el borde de la isla de 0.95 V (ver [Limitaciones conocidas](#limitaciones-conocidas-y-mejoras)).
 - **Dedos de GND** del conector de borde unidos al plano con vías propias, y vías de costura GND junto a los cambios de capa de los pares.
 
 ### Reglas eléctricas (Constraint Manager)
@@ -253,6 +253,26 @@ Los 31 pares diferenciales tienen asignado un ECSet según su función. Los anch
 ![Footprints propios de los buck](docs/img/footprints_buck.png)
 
 Los *footprints* de Ultra Librarian traían la máscara de soldadura en 1×1 mil, lo que deja los pads tapados. Por eso se reemplazaron por *footprints* propios basados en el *land pattern* recomendado por TI. Cada uno tiene *padstacks* nuevos con apertura de máscara de +0.05 mm por lado, pasta reducida en los pads térmicos, contorno de ensamble, *place bound* y marca de pin 1. Están en `symbols/`: `ti_rzr0016a_kf`, `ti_rpg0014a_kf` y `ti_drl0008a_kf`.
+
+### Notas de fabricación
+
+Indicaciones para el pedido en JLCPCB:
+
+- **Capas y espesor:** 6 capas, 1.6 mm, orden TOP · GND02 · ART03 · ART04 · PWR05 · BOTTOM (archivos `.GTL`, `.G1`–`.G4`, `.GBL`).
+- **Impedancia controlada:** 85 Ω diferencial para los pares PCIe y 100 Ω para REFCLK. Antes de pedir hay que elegir el stack-up de impedancia de JLCPCB y ajustar los anchos de `DIFF_85OHM` y `DIFF_100OHM` con su calculadora.
+- **Vía en pad (POFV):** hay vías dentro de pads SMD, incluida una en la bola SDA_I2C del BGA. Se debe pedir vía rellena con epoxy y tapada.
+- **Dedos dorados:** el conector de borde requiere acabado ENIG o *hard gold* y chaflán de 45°.
+- **Taladros:** separación mínima entre dos vías de GND junto al BGA de 0.05 mm entre bordes de taladro; conviene confirmarla en la revisión DFM del fabricante.
+
+### Limitaciones conocidas y mejoras
+
+Puntos detectados en la revisión final que no se corrigieron porque requieren rehacer parte del layout:
+
+- **Supervisión de rieles:** PERST# del switch y de los M.2 se libera con PG_3V3 y U2_PGOOD. No vigila VP (el TPS62933F no tiene salida PG) ni los LDO, y no tiene el retardo de 100 ms de la especificación. Mejora: supervisor de voltaje o compuertas AND con retardo RC.
+- **Riel VDDC:** el lado del Buck 2 tiene un solo capacitor de 47 µF y el sensado se toma antes de la ferrita BD1. Mejora: capacitores *bulk* junto a las bolas VDDC y sensado en el punto de carga.
+- **Referencia de dos pares:** un par de ART04 y un reloj de BOTTOM cruzan el borde de la isla de 0.95 V en PWR05. Mejora: recortar la isla o rerutear esos tramos.
+- **Entrada de 12 V:** P1 y PWR1 quedan en paralelo sin diodos OR, fusible ni TVS.
+- **Mecánica:** el contorno sigue el perfil de una tarjeta x16 con dedos x4 y mide 154 mm de alto, por encima de una tarjeta *full-height* estándar.
 
 ## Componentes principales
 
@@ -317,8 +337,8 @@ PCIe808_SW/
 - [x] *Placement* de los 242 componentes
 - [x] Ruteo de alta velocidad: 8 *lanes* PCIe y relojes de referencia
 - [x] Ruteo de los tres convertidores *buck*, de los LDO y de las señales de control
-- [x] Distribución de 12 V, 3.3 V, 5 V, 1.8 V, 0.95 V y 3.3VAUX
-- [x] Serigrafía y designadores
+- [x] Distribución de 12 V, 3.3 V, 5 V, 1.8 V y 0.95 V
+- [x] Serigrafía con designadores actualizados y marca de pin A1 del BGA
 - [x] DRC de Allegro en 0 errores, con todas las conexiones ruteadas
 - [x] Gerbers, taladros, BOM y PDF del esquemático
 
@@ -333,7 +353,7 @@ PCIe808_SW/
 | Esquemático completo | [`outputs/PI7_KEVINFLORES_esquematico.pdf`](outputs/PI7_KEVINFLORES_esquematico.pdf) | PDF |
 | Reportes de DRC | [`outputs/reportes/`](outputs/reportes/) | TXT |
 
-**BOM:** el costo estimado de componentes para una placa es de **USD 88.29**. El switch PI7C9X3G808GP tiene aviso de fin de vida del fabricante (PCN-2740), por lo que conviene comprarlo con anticipación; no existe un reemplazo compatible pin a pin.
+**BOM:** el costo estimado de componentes para una placa es de **USD 88.29 (Q674.74)**, y de USD 432.41 (Q3304.45) para cinco placas. No incluye P1, R5, R13, R37 ni los separadores de los M.2, que quedan por cotizar. El switch PI7C9X3G808GP tiene aviso de fin de vida del fabricante (PCN-2740), por lo que conviene comprarlo con anticipación; no existe un reemplazo compatible pin a pin.
 
 ## Aviso
 

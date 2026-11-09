@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 25.1.0 d001Nov-09-2026 at 00:24:32}
+{ Using PSTWRITER 25.1.0 d001Nov-09-2026 at 06:01:00}
 primitive 'BEAD_L1812_HI1812V101R-10';
   pin
     '2':
@@ -1235,7 +1235,7 @@ primitive 'R_2P_R0402_DISCRETE_25K1%';
     VALUE='25K1%';
   end_body;
 end_primitive;
-primitive 'R_2P_R0402_1K';
+primitive 'R_2P_R0402_4.7K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1247,7 +1247,7 @@ primitive 'R_2P_R0402_1K';
   body
     PART_NAME='R_2P';
     JEDEC_TYPE='R0402';
-    VALUE='1K';
+    VALUE='4.7K';
   end_body;
 end_primitive;
 primitive 'R_R0603_576K 1%';

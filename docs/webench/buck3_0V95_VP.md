@@ -4,17 +4,17 @@ IC: TPS62933FDRLR (TI, 3 A, 3.8-30 V, SOT-583 DRL 8 pines sin pad termico), FCCM
 Resultados: Eff 89.4 % | Vout p-p 3.0 mV | IC Tj 56.3 C | IC Ipk 1.54 A | L Ipp 1.08 A | Overshoot 2.1 / Undershoot 9.1 mV
  Vout 0.9496 V (+-2.32 %) | Caida en BD4 (10 mOhm x 0.57 A) = 5.7 mV -> min ~0.91 V OK
 NOTA: la familia TPS62933 no tiene variante con FCCM + Power Good. Se prioriza FCCM (riel analogico SerDes).
- Secuencia: EN de Buck 3 <- PG de Buck 2 (VDDC primero, luego VP); el PG global sale de Buck 1 y Buck 2.
+ Secuencia: EN de Buck 3 <- PG de Buck 2 (VDDC primero, luego VP). VP no tiene senal PG propia (ver Limitaciones en el README).
 DESCARTADOS: TPS62150/TPS62140 (DCS-Control con PFM a carga ligera), TPS562208 (no aparece entre los mejores, 2.6x mas area)
 BOM (10):
 U1  TPS62933FDRLR
 L1  Coilcraft XAL7030-152MEB 1.5 uH, 7.6 mOhm, 15 A (WEBENCH proponia SRU1038 10x10 mm; cambiado por tamano)
 Cin C0805C106K8PACTU 10uF 10V 0805 ; Cinx EMK107B7104KA-T 100nF 0603
 Cout GRM32EC80J107ME20L 100uF 6.3V 1210
-Cboot C0603X5R1A104K030BC 100nF 0201 (cambiar a 0402) ; Css GRM155R71C223KA01D 22nF 0402 ; Cff GRM1555C1H101GA01D 100pF 0402
+Cboot C0603X5R1A104K030BC 100nF (se usa 0402) ; Css GRM155R71C223KA01D 22nF 0402 ; Cff GRM1555C1H101GA01D 100pF 0402
 Rfbt 1.87k 0603 ; Rfbb 10k 0402
 
-## Implementacion en esquematico (pag. 03_PWR1)
-U7 TPS62933FDRLR (fp SOT5X3-8_DRL_TEX) | L3 1.5uH (IND_XAL7030)
+## Implementacion en esquematico (hoja 07)
+U7 TPS62933FDRLR (fp ti_drl0008a_kf) | L3 1.5uH XAL7030-152MEC
 Cout C46 | Cin C50 | Cinx C51 | Cboot C49 (0402) | Css C43 | Cff C55 | Rfbt R44 | Rfbb R43
-EN <- U2_PGOOD (PGOOD de Buck 2). RT sin conectar (No-Connect) = 500 kHz. LED de VP original (Q2/DS7/R29/R30) eliminado.
+EN <- U2_PGOOD (PGOOD de Buck 2). RT sin conectar (No-Connect) = 500 kHz. El LED de VP del diseno de referencia se elimino.
