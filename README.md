@@ -65,6 +65,8 @@ El diseño parte del esquemático de referencia de la tarjeta de evaluación del
   </tr>
 </table>
 
+<p align="center"><img src="docs/img/vista_3d.png" alt="Vista 3D de la tarjeta" width="85%"><br><sub>Vista 3D de la tarjeta (Allegro 3DX Canvas). Los componentes se muestran como bloques genéricos con la altura de su <i>footprint</i>, ya que no se asociaron modelos STEP.</sub></p>
+
 ## Especificaciones principales
 
 | Parámetro | Valor |
