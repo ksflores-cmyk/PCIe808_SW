@@ -38,7 +38,6 @@ allegro/view.art
 allegro/copy_of_*
 # ===== Archivos de trabajo de la BOM (el entregable es bom/BOM_*.csv y .xlsx) =====
 bom/bom_lineas_entrada.csv
-bom/gemini_bom_prompt.md
 bom/lines.json
 # ===== Footprints base de trabajo =====
 symbols/zz_*

@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S040 (4438746)  [5/24/2026]-[11/08/26]")
+  (SoftwareVersion "25.1 S040 (4438746)  [5/24/2026]-[11/09/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -139,12 +139,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "P:\pi7_kevinflores.dsn")
-      (Path "Design Resources" "P:\pi7_kevinflores.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\pi7_kevinflores.dsn")
+      (Path "Design Resources" ".\pi7_kevinflores.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "P:\pi7_kevinflores.dsn" "SCHEMATIC1"
-         "07_BUCK_0V95_VP"))
+      (Select "Design Resources" ".\pi7_kevinflores.dsn" "SCHEMATIC1"
+         "08_LDO_0V95C_1V8"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -160,7 +160,7 @@
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "15_U6E_GPIO"))
+      (Page "05_BUCK_3V3"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -170,23 +170,13 @@
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "05_BUCK_3V3"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
-        (Occurrence "/"))
-      (Path "P:\PI7_KEVINFLORES.DSN")
-      (Schematic "SCHEMATIC1")
       (Page "06_BUCK_0V95_VDDC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1290 24 637")
-        (Scroll "-253 -9")
-        (Zoom "37")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -205,8 +195,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-233 0")
-        (Zoom "39")
+        (Scroll "261 0")
+        (Zoom "78")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -225,8 +215,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-243 -2")
-        (Zoom "38")
+        (Scroll "-233 0")
+        (Zoom "39")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -250,16 +240,6 @@
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "09_U6A_ALIMENTACION"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "-243 -2")
-        (Zoom "38")
-        (Occurrence "/"))
-      (Path "P:\PI7_KEVINFLORES.DSN")
-      (Schematic "SCHEMATIC1")
       (Page "10_UPSTREAM_P0"))
     (Doc
       (Type "COrSchematicDoc")
@@ -267,16 +247,6 @@
         (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
         (Scroll "-243 -2")
         (Zoom "38")
-        (Occurrence "/"))
-      (Path "P:\PI7_KEVINFLORES.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "11_U6C_PARES_DIF"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
-        (Scroll "0 0")
-        (Zoom "74")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
@@ -290,17 +260,47 @@
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "13_U6D_RELOJ"))
+      (Page "09_U5A_ALIMENTACION"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1290 24 637")
-        (Scroll "-223 0")
-        (Zoom "40")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
+        (Scroll "-243 -2")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "P:\PI7_KEVINFLORES.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "14_U6B_CONFIG")))
+      (Page "11_U5C_PARES_DIF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
+        (Scroll "-243 -2")
+        (Zoom "38")
+        (Occurrence "/"))
+      (Path "P:\PI7_KEVINFLORES.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "13_U5D_RELOJ"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
+        (Scroll "175 133")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path "P:\PI7_KEVINFLORES.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "14_U5B_CONFIG"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 637")
+        (Scroll "-243 -2")
+        (Zoom "38")
+        (Occurrence "/"))
+      (Path "P:\PI7_KEVINFLORES.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "15_U5E_GPIO")))
   (MPSSessionName "Kevin")
   (PartMRUSelector
     (TitleBlock1

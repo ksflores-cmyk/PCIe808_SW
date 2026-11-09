@@ -60,8 +60,15 @@ El diseño parte del esquemático de referencia de la tarjeta de evaluación del
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="docs/img/pcb_vista_general.png" alt="Vista general del layout" width="100%"><br><sub>Layout completo, generado desde los Gerbers de fabricación: capas de señal superpuestas y pads en rojo.</sub></td>
-    <td align="center" width="50%"><img src="docs/img/capas_cobre.png" alt="Capas de cobre" width="100%"><br><sub>Capas de señal por separado: TOP, ART03, ART04 y BOTTOM (GND02 y PWR05 son planos).</sub></td>
+    <td align="center" colspan="2"><img src="docs/img/pcb_vista_general.png" alt="Vista general del layout" width="70%"><br><sub>Layout completo en Allegro: capas de señal TOP, ART03, ART04 y BOTTOM superpuestas (GND02 y PWR05 ocultos).</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="docs/img/capas_cobre_top.png" alt="Capa TOP" width="100%"><br><sub>TOP: señal y componentes.</sub></td>
+    <td align="center" width="50%"><img src="docs/img/capas_cobre_art03.png" alt="Capa ART03" width="100%"><br><sub>ART03: señal stripline y zona de 12 V.</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="docs/img/capas_cobre_art04.png" alt="Capa ART04" width="100%"><br><sub>ART04: señal stripline y zonas de potencia.</sub></td>
+    <td align="center" width="50%"><img src="docs/img/capas_cobre_bottom.png" alt="Capa BOTTOM" width="100%"><br><sub>BOTTOM: señal, desacople bajo el BGA y zona de cobre.</sub></td>
   </tr>
 </table>
 
@@ -206,8 +213,9 @@ La alimentación tiene que cruzar el bus de relojes REFCLK, que sube por las cap
 | Parámetro | Valor |
 |---|---|
 | Capas | 6: TOP · GND02 · ART03 · ART04 · PWR05 · BOTTOM |
-| Material | FR408 (εr 3.67) en el modelo de Allegro; para JLCPCB (FR-4) hay que recalcular los anchos con su stack-up de impedancia controlada (ver [Notas de fabricación](#notas-de-fabricación)) |
-| Espesor | ≈ 61 mil (1.55 mm) |
+| Material | Dieléctrico Fr-4 con εr 3.67 (valor de FR408) en el modelo de Allegro; para JLCPCB hay que recalcular los anchos con su stack-up de impedancia controlada (ver [Notas de fabricación](#notas-de-fabricación)) |
+| Espesores (mil) | Cobre: TOP/BOTTOM 1.9 · internas 1.4 — Dieléctricos: 3.6 · 3.9 · 37.6 · 3.9 · 3.6 |
+| Espesor | ≈ 62 mil de laminado (1.57 mm); 64 mil en Allegro contando las capas de recubrimiento de 1 mil |
 | Pares PCIe | 85 Ω diferencial, referenciados a un plano de GND continuo |
 | Relojes REFCLK | 100 Ω diferencial (≈ 99 Ω calculado) |
 | Vía estándar | VIA_0R25D0R50 propia (taladro 0.25 mm, pad 0.50 mm en todas las capas, antipad 0.76 mm, *tented*) |
@@ -250,7 +258,13 @@ Los 31 pares diferenciales tienen asignado un ECSet según su función. Los anch
 
 ### Footprints propios de los convertidores
 
-![Footprints propios de los buck](docs/img/footprints_buck.png)
+<table>
+  <tr>
+    <td align="center"><img src="docs/img/footprint_u1.png" alt="ti_rzr0016a_kf" height="300"><br><sub><code>ti_rzr0016a_kf</code>: TPS54KB20 (U1), VQFN-HR 3.0×3.5 mm, 16 pines</sub></td>
+    <td align="center"><img src="docs/img/footprint_u2.png" alt="ti_rpg0014a_kf" height="300"><br><sub><code>ti_rpg0014a_kf</code>: TPS54J060 (U2), VQFN-HR 2.5×3.0 mm, 14 pines</sub></td>
+    <td align="center"><img src="docs/img/footprint_u7.png" alt="ti_drl0008a_kf" height="300"><br><sub><code>ti_drl0008a_kf</code>: TPS62933F (U7), SOT-583 1.2×1.6 mm, 8 pines</sub></td>
+  </tr>
+</table>
 
 Los *footprints* de Ultra Librarian traían la máscara de soldadura en 1×1 mil, lo que deja los pads tapados. Por eso se reemplazaron por *footprints* propios basados en el *land pattern* recomendado por TI. Cada uno tiene *padstacks* nuevos con apertura de máscara de +0.05 mm por lado, pasta reducida en los pads térmicos, contorno de ensamble, *place bound* y marca de pin 1. Están en `symbols/`: `ti_rzr0016a_kf`, `ti_rpg0014a_kf` y `ti_drl0008a_kf`.
 
